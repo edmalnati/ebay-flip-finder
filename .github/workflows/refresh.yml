@@ -25,7 +25,7 @@ jobs:
       - name: Fetch deals from eBay
         env:
           EBAY_APP_ID:  ${{ secrets.EBAY_APP_ID }}
-          EBAY_CERT_ID: ${{ secrets.EBAY_CERT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: python fetch_deals.py
 
       - name: Commit and push updated deals.json

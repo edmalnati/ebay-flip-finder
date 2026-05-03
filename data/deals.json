@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T18:49:51.239362+00:00",
+  "last_updated": "2026-05-03T18:58:29.678602+00:00",
   "market_prices": {
     "PS4 DualShock 4": 40.0,
     "PS5 DualSense": 60.0,
@@ -991,6 +991,21 @@
       "date_posted": "2026-04-21"
     },
     {
+      "id": "v1|406901860197|0",
+      "title": "Xbox Series X/S Wireless Controller Model 1914 - 2 Pack - Parts or Repair",
+      "model": "Xbox Series X/S",
+      "status": "broken",
+      "buy_price": 30.0,
+      "shipping_price": 0.0,
+      "market_price": 55.0,
+      "profit_estimate": 17.85,
+      "deal_tier": "great",
+      "discount_pct": 45.5,
+      "image_url": "https://i.ebayimg.com/images/g/ovsAAeSwANdp95gq/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/406901860197?_skw=Xbox+Series+X+S+controller+broken+parts+not+working&hash=item5ebd3da765:g:ovsAAeSwANdp95gq",
+      "date_posted": "2026-05-03"
+    },
+    {
       "id": "v1|188293870932|0",
       "title": "Microsoft Wireless Controller for Xbox Series X/S - Daystrike Camo FOR PARTS",
       "model": "Xbox Series X/S",
@@ -1004,21 +1019,6 @@
       "image_url": "https://i.ebayimg.com/images/g/rdkAAeSwm5Bp5MI8/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/188293870932?_skw=Xbox+Series+X+S+controller+broken+parts+not+working&hash=item2bd7307554:g:rdkAAeSwm5Bp5MI8",
       "date_posted": "2026-04-19"
-    },
-    {
-      "id": "v1|397852777983|0",
-      "title": "For Parts Xbox Series S/X Controller",
-      "model": "Xbox Series X/S",
-      "status": "broken",
-      "buy_price": 30.0,
-      "shipping_price": 0.0,
-      "market_price": 55.0,
-      "profit_estimate": 17.85,
-      "deal_tier": "great",
-      "discount_pct": 45.5,
-      "image_url": "https://i.ebayimg.com/images/g/0nMAAeSwJnVp4vgw/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/397852777983?_skw=Xbox+Series+X+S+controller+broken+parts+not+working&hash=item5ca1df9dff:g:0nMAAeSwJnVp4vgw",
-      "date_posted": "2026-04-18"
     },
     {
       "id": "v1|317872240922|0",

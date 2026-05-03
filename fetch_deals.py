@@ -1,88 +1,83 @@
-#!/usr/bin/env python3
-"""Fetch eBay broken-controller listings and write data/deals.json."""
-
-import base64
-import json
 import os
 import sys
-from datetime import datetime, date, timezone
-
+import json
+import base64
 import requests
+from datetime import datetime, timezone
 
-# ── Config ──────────────────────────────────────────────────────────────────
-
-EBAY_APP_ID  = os.environ["EBAY_APP_ID"]   # eBay OAuth client_id
-EBAY_CERT_ID = os.environ["EBAY_CERT_ID"]  # eBay OAuth client_secret
-
-TOKEN_URL  = "https://api.ebay.com/identity/v1/oauth2/token"
-BROWSE_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
-SCOPE      = "https://api.ebay.com/oauth/api_scope"
+# --- Config ---
+APP_ID = os.environ.get("EBAY_APP_ID")
+CLIENT_SECRET = os.environ.get("EBAY_CLIENT_SECRET")
 
 MARKET_PRICES = {
-    "PS4 DualShock 4":        40.00,
-    "Xbox One/Series":        37.00,
-    "Nintendo Switch Joy-Con": 47.00,
+    "PS4 DualShock 4": 40.00,
+    "Xbox One/Series": 37.00,
+    "Joy-Con": 47.00,
 }
 
-# One or more search queries per model (results are deduplicated by item ID)
-SEARCH_QUERIES = {
-    "PS4 DualShock 4": [
-        "PS4 DualShock 4 controller broken for parts",
-        "PlayStation 4 controller not working cracked damaged",
-    ],
-    "Xbox One/Series": [
-        "Xbox One controller broken for parts not working",
-        "Xbox Series X S wireless controller faulty damaged",
-    ],
-    "Nintendo Switch Joy-Con": [
-        "Nintendo Switch Joy-Con pair broken for parts",
-        "Joy-Con pair not working cracked damaged untested",
-    ],
-}
-
-# Title must contain at least one of these keywords (case-insensitive)
-TITLE_KEYWORDS = [
-    "for parts", "broken", "not working", "dirty", "untested",
-    "faulty", "cracked", "damaged",
+SEARCH_QUERIES = [
+    {"model": "PS4 DualShock 4", "query": "PS4 DualShock 4 controller broken parts not working"},
+    {"model": "PS4 DualShock 4", "query": "PS4 DualShock 4 controller dirty untested faulty"},
+    {"model": "Xbox One/Series", "query": "Xbox One controller broken parts not working"},
+    {"model": "Xbox One/Series", "query": "Xbox Series controller broken parts faulty untested"},
+    {"model": "Joy-Con", "query": "Nintendo Switch Joy-Con broken drift parts not working"},
+    {"model": "Joy-Con", "query": "Nintendo Switch Joy-Con faulty untested for parts"},
 ]
 
-OUTPUT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "deals.json")
+CONDITION_KEYWORDS = [
+    "for parts", "not working", "broken", "dirty", "untested",
+    "faulty", "cracked", "damaged", "drift", "repair"
+]
 
-# ── eBay OAuth ───────────────────────────────────────────────────────────────
+STATUS_BROKEN_KEYWORDS = [
+    "for parts", "not working", "broken", "faulty", "cracked",
+    "damaged", "repair", "drift", "untested"
+]
 
-def get_access_token() -> str:
-    credentials = base64.b64encode(f"{EBAY_APP_ID}:{EBAY_CERT_ID}".encode()).decode()
-    resp = requests.post(
-        TOKEN_URL,
-        headers={
-            "Authorization": f"Basic {credentials}",
-            "Content-Type": "application/x-www-form-urlencoded",
-        },
-        data={"grant_type": "client_credentials", "scope": SCOPE},
-        timeout=30,
+def get_access_token():
+    credentials = f"{APP_ID}:{CLIENT_SECRET}"
+    encoded = base64.b64encode(credentials.encode()).decode()
+    headers = {
+        "Authorization": f"Basic {encoded}",
+        "Content-Type": "application/x-www-form-urlencoded",
+    }
+    data = {"grant_type": "client_credentials", "scope": "https://api.ebay.com/oauth/api_scope"}
+    print("Fetching eBay access token...")
+    response = requests.post(
+        "https://api.ebay.com/identity/v1/oauth2/token",
+        headers=headers,
+        data=data
     )
-    resp.raise_for_status()
-    return resp.json()["access_token"]
+    if response.status_code != 200:
+        print(f"ERROR: Could not fetch token - {response.status_code} {response.text}")
+        sys.exit(1)
+    token = response.json().get("access_token")
+    print("Access token obtained.")
+    return token
 
-# ── Deal math ────────────────────────────────────────────────────────────────
-
-def calc_tier(buy_price: float, market_price: float) -> str:
-    if buy_price >= market_price:
-        return "unfair"
-    discount = (market_price - buy_price) / market_price
-    if discount >= 0.35:
+def get_deal_tier(discount_pct):
+    if discount_pct >= 35:
         return "great"
-    if discount >= 0.20:
+    elif discount_pct >= 20:
         return "good"
-    return "fair"
+    elif discount_pct > 0:
+        return "fair"
+    else:
+        return "unfair"
 
+def get_status(title):
+    title_lower = title.lower()
+    for kw in STATUS_BROKEN_KEYWORDS:
+        if kw in title_lower:
+            return "broken"
+    return "working"
 
-def calc_profit(buy_price: float, market_price: float) -> float:
-    return round(market_price - buy_price - (buy_price * 0.13), 2)
+def calc_profit(market_price, buy_price, shipping):
+    total_cost = buy_price + shipping
+    ebay_fee = market_price * 0.13
+    return round(market_price - total_cost - ebay_fee, 2)
 
-# ── eBay Browse API ──────────────────────────────────────────────────────────
-
-def fetch_listings(token: str, query: str) -> list:
+def search_listings(token, query, model):
     headers = {
         "Authorization": f"Bearer {token}",
         "X-EBAY-C-MARKETPLACE-ID": "EBAY_US",
@@ -90,113 +85,133 @@ def fetch_listings(token: str, query: str) -> list:
     }
     params = {
         "q": query,
-        "filter": "conditions:{FOR_PARTS_OR_NOT_WORKING},buyingOptions:{FIXED_PRICE}",
-        "limit": "50",
-        "fieldgroups": "STANDARD",
+        "limit": 20,
+        "filter": "conditionIds:{7000|3000}",  # For parts or not working + Used
+        "sort": "newlyListed",
     }
-    resp = requests.get(BROWSE_URL, headers=headers, params=params, timeout=30)
-    resp.raise_for_status()
-    return resp.json().get("itemSummaries", [])
+    response = requests.get(
+        "https://api.ebay.com/buy/browse/v1/item_summary/search",
+        headers=headers,
+        params=params
+    )
+    if response.status_code != 200:
+        print(f"  Warning: Search failed for '{query}': {response.status_code}")
+        return []
+    items = response.json().get("itemSummaries", [])
+    print(f"  Found {len(items)} results for: {query}")
+    return items
 
-
-def parse_item(item: dict, model: str) -> dict | None:
-    title = item.get("title", "")
-    title_lower = title.lower()
-
-    # Skip listings whose title doesn't signal a broken/parts item
-    if not any(kw in title_lower for kw in TITLE_KEYWORDS):
-        return None
-
+def process_item(item, model):
     try:
-        buy_price = float(item.get("price", {}).get("value", 0))
-    except (ValueError, TypeError):
+        title = item.get("title", "")
+        title_lower = title.lower()
+
+        # Only include listings with relevant condition keywords
+        if not any(kw in title_lower for kw in CONDITION_KEYWORDS):
+            return None
+
+        price_info = item.get("price", {})
+        buy_price = float(price_info.get("value", 0))
+        if buy_price <= 0:
+            return None
+
+        # Shipping cost
+        shipping_options = item.get("shippingOptions", [])
+        if shipping_options:
+            ship_cost = shipping_options[0].get("shippingCost", {})
+            shipping = float(ship_cost.get("value", 0))
+        else:
+            shipping = 0.0
+
+        market_price = MARKET_PRICES.get(model, 40.00)
+        total_cost = buy_price + shipping
+        discount_pct = ((market_price - total_cost) / market_price) * 100
+        deal_tier = get_deal_tier(discount_pct)
+        profit = calc_profit(market_price, buy_price, shipping)
+        status = get_status(title)
+
+        # Date posted
+        date_str = item.get("itemCreationDate", "")
+        if date_str:
+            try:
+                dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+                date_posted = dt.strftime("%Y-%m-%d")
+            except Exception:
+                date_posted = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        else:
+            date_posted = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+        image = item.get("image", {}).get("imageUrl", "")
+        listing_url = item.get("itemWebUrl", "")
+        item_id = item.get("itemId", "")
+
+        return {
+            "id": item_id,
+            "title": title,
+            "model": model,
+            "status": status,
+            "buy_price": round(buy_price, 2),
+            "shipping_price": round(shipping, 2),
+            "market_price": round(market_price, 2),
+            "profit_estimate": profit,
+            "deal_tier": deal_tier,
+            "discount_pct": round(discount_pct, 1),
+            "image_url": image,
+            "listing_url": listing_url,
+            "date_posted": date_posted,
+        }
+    except Exception as e:
+        print(f"  Skipping item due to error: {e}")
         return None
 
-    if buy_price <= 0:
-        return None
-
-    market_price = MARKET_PRICES[model]
-    image_url    = item.get("image", {}).get("imageUrl", "")
-    listing_url  = item.get("itemWebUrl", "")
-    raw_id       = item.get("itemId", "").replace("|", "-")
-    item_id      = raw_id or f"{model.lower().replace(' ', '-')}-{abs(hash(title)) % 10_000_000}"
-
-    # Derive status from condition or title
-    condition = item.get("condition", "").lower()
-    status = "broken" if (
-        "parts" in condition or "not working" in condition
-        or any(kw in title_lower for kw in ["broken", "not working", "cracked", "damaged", "faulty"])
-    ) else "working"
-
-    raw_date = item.get("itemCreationDate", "")
-    date_posted = raw_date.split("T")[0] if raw_date else date.today().isoformat()
-
-    return {
-        "id":              item_id,
-        "title":           title,
-        "model":           model,
-        "status":          status,
-        "buy_price":       buy_price,
-        "market_price":    market_price,
-        "image_url":       image_url,
-        "listing_url":     listing_url,
-        "date_posted":     date_posted,
-        "deal_tier":       calc_tier(buy_price, market_price),
-        "profit_estimate": calc_profit(buy_price, market_price),
-    }
-
-# ── Main ─────────────────────────────────────────────────────────────────────
-
-def main() -> None:
-    print("Fetching eBay access token…")
-    try:
-        token = get_access_token()
-    except Exception as exc:
-        print(f"ERROR: Could not fetch token — {exc}", file=sys.stderr)
+def main():
+    if not APP_ID or not CLIENT_SECRET:
+        print("ERROR: EBAY_APP_ID and EBAY_CLIENT_SECRET environment variables are required.")
         sys.exit(1)
 
-    all_deals: list[dict] = []
-    seen_ids: set[str]    = set()
+    token = get_access_token()
+    all_deals = []
+    seen_ids = set()
 
-    for model, queries in SEARCH_QUERIES.items():
-        print(f"\n[{model}]")
-        for query in queries:
-            print(f"  → {query}")
-            try:
-                items = fetch_listings(token, query)
-            except Exception as exc:
-                print(f"  WARNING: request failed — {exc}", file=sys.stderr)
+    for search in SEARCH_QUERIES:
+        model = search["model"]
+        query = search["query"]
+        print(f"\nSearching [{model}]: {query}")
+        items = search_listings(token, query, model)
+        for item in items:
+            item_id = item.get("itemId", "")
+            if item_id in seen_ids:
                 continue
+            seen_ids.add(item_id)
+            deal = process_item(item, model)
+            if deal:
+                all_deals.append(deal)
 
-            for item in items:
-                deal = parse_item(item, model)
-                if deal and deal["id"] not in seen_ids:
-                    seen_ids.add(deal["id"])
-                    all_deals.append(deal)
-
-    # Sort by tier then by profit descending within tier
+    # Sort: great first, then good, then fair, then unfair
     tier_order = {"great": 0, "good": 1, "fair": 2, "unfair": 3}
-    all_deals.sort(key=lambda d: (tier_order.get(d["deal_tier"], 9), -d["profit_estimate"]))
-
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    payload = {
-        "refreshed_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "deals":        all_deals,
-    }
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as fh:
-        json.dump(payload, fh, indent=2)
+    all_deals.sort(key=lambda d: (tier_order.get(d["deal_tier"], 4), d["buy_price"]))
 
     # Summary
-    counts = {t: 0 for t in tier_order}
+    counts = {"great": 0, "good": 0, "fair": 0, "unfair": 0}
     for d in all_deals:
-        counts[d["deal_tier"]] += 1
+        counts[d["deal_tier"]] = counts.get(d["deal_tier"], 0) + 1
 
-    print(f"\n✅  {len(all_deals)} listings written to {OUTPUT_PATH}")
-    print(f"   ⭐  {counts['great']}  great")
-    print(f"   🟢  {counts['good']}  good")
-    print(f"   🟡  {counts['fair']}  fair")
-    print(f"   🔴  {counts['unfair']}  unfair")
+    output = {
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "deals": all_deals
+    }
 
+    os.makedirs("data", exist_ok=True)
+    with open("data/deals.json", "w") as f:
+        json.dump(output, f, indent=2)
+
+    print(f"\n--- Summary ---")
+    print(f"Total deals written: {len(all_deals)}")
+    print(f"  Great : {counts['great']}")
+    print(f"  Good  : {counts['good']}")
+    print(f"  Fair  : {counts['fair']}")
+    print(f"  Unfair: {counts['unfair']}")
+    print(f"Output written to data/deals.json")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,37 @@
+name: Refresh Deals
+
+on:
+  schedule:
+    # 13:00 UTC = 08:00 EST / 09:00 EDT
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch deals from eBay
+        env:
+          EBAY_APP_ID:  ${{ secrets.EBAY_APP_ID }}
+          EBAY_CERT_ID: ${{ secrets.EBAY_CERT_ID }}
+        run: python fetch_deals.py
+
+      - name: Commit and push updated deals.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/deals.json
+          git diff --staged --quiet || git commit -m "chore: auto-refresh deals $(date -u +%Y-%m-%d)"
+          git push

@@ -16,12 +16,13 @@ FALLBACK_PRICES = {
     "Joy-Con": 47.00,
 }
 
+# Search terms for working condition sold listings (market baseline)
 MARKET_QUERIES = {
-    "PS4 DualShock 4": "PS4 DualShock 4 controller working",
-    "PS5 DualSense": "PS5 DualSense controller working",
-    "Xbox One/Series": "Xbox One wireless controller working",
-    "Xbox Series X/S": "Xbox Series X S controller working",
-    "Joy-Con": "Nintendo Switch Joy-Con pair working",
+    "PS4 DualShock 4": "PS4 DualShock 4 controller",
+    "PS5 DualSense": "PS5 DualSense controller",
+    "Xbox One/Series": "Xbox One wireless controller",
+    "Xbox Series X/S": "Xbox Series X controller",
+    "Joy-Con": "Nintendo Switch Joy-Con pair",
 }
 
 SEARCH_QUERIES = [
@@ -32,9 +33,9 @@ SEARCH_QUERIES = [
     {"model": "PS5 DualSense", "query": "PS5 DualSense controller drift faulty untested"},
     {"model": "PS5 DualSense", "query": "PS5 DualSense controller used working"},
     {"model": "Xbox One/Series", "query": "Xbox One controller broken parts not working"},
-    {"model": "Xbox One/Series", "query": "Xbox One controller used working untested"},
+    {"model": "Xbox One/Series", "query": "Xbox One controller used working"},
     {"model": "Xbox Series X/S", "query": "Xbox Series X S controller broken parts not working"},
-    {"model": "Xbox Series X/S", "query": "Xbox Series X S controller used working faulty"},
+    {"model": "Xbox Series X/S", "query": "Xbox Series X S controller used working"},
     {"model": "Joy-Con", "query": "Nintendo Switch Joy-Con broken drift parts not working"},
     {"model": "Joy-Con", "query": "Nintendo Switch Joy-Con faulty untested for parts"},
     {"model": "Joy-Con", "query": "Nintendo Switch Joy-Con used working pair"},
@@ -43,6 +44,13 @@ SEARCH_QUERIES = [
 STATUS_BROKEN_KEYWORDS = [
     "for parts", "not working", "broken", "faulty", "cracked",
     "damaged", "repair", "drift", "untested"
+]
+
+# Keywords that suggest a listing is NOT a clean working unit
+EXCLUDE_FROM_BASELINE = [
+    "for parts", "not working", "broken", "faulty", "cracked",
+    "damaged", "repair", "drift", "untested", "dirty", "bundle",
+    "lot", "as is", "read"
 ]
 
 def get_access_token():
@@ -59,51 +67,67 @@ def get_access_token():
     return response.json().get("access_token")
 
 def get_market_price(token, model):
+    """
+    Estimate market price by sampling current active listings of working units.
+    Uses condition filter for Used/Good/Very Good and excludes broken keywords.
+    Falls back to hardcoded price if not enough data.
+    """
     query = MARKET_QUERIES.get(model)
     if not query:
         return FALLBACK_PRICES.get(model, 40.00), "fallback"
+
     headers = {
         "Authorization": f"Bearer {token}",
         "X-EBAY-C-MARKETPLACE-ID": "EBAY_US",
-        "Content-Type": "application/json",
     }
+    # conditionIds 3000=Used, 2500=Very Good, 2000=Good, 1500=Like New
     params = {
         "q": query,
         "limit": 50,
-        "filter": "conditionIds:{1000|1500|2000|2500|3000}",
+        "filter": "conditionIds:{1500|2000|2500|3000}",
+        "sort": "price",
     }
+
     try:
         response = requests.get(
-            "https://api.ebay.com/buy/marketplace_insights/v1_beta/item_sales/search",
+            "https://api.ebay.com/buy/browse/v1/item_summary/search",
             headers=headers,
             params=params
         )
+
         if response.status_code == 200:
-            items = response.json().get("itemSales", [])
-            if items:
-                prices = []
-                for item in items:
-                    try:
-                        price = float(item.get("lastSoldPrice", {}).get("value", 0))
-                        if price > 5:
-                            prices.append(price)
-                    except Exception:
-                        continue
-                if prices:
-                    prices.sort()
-                    mid = len(prices) // 2
-                    median = prices[mid] if len(prices) % 2 != 0 else (prices[mid - 1] + prices[mid]) / 2
-                    avg = sum(prices) / len(prices)
-                    market_price = round((median + avg) / 2, 2)
-                    print(f"  [{model}] Live market price: ${market_price} ({len(prices)} sold listings)")
-                    return market_price, "live"
-            print(f"  [{model}] No sold data returned, using fallback")
-        elif response.status_code == 403:
-            print(f"  [{model}] Marketplace Insights not authorized, using fallback")
+            items = response.json().get("itemSummaries", [])
+            prices = []
+            for item in items:
+                title = item.get("title", "").lower()
+                # Skip listings that look broken or are bundles
+                if any(kw in title for kw in EXCLUDE_FROM_BASELINE):
+                    continue
+                try:
+                    price = float(item.get("price", {}).get("value", 0))
+                    # Sanity check — filter obvious outliers
+                    fallback = FALLBACK_PRICES.get(model, 40.00)
+                    if price > (fallback * 0.3) and price < (fallback * 2.5):
+                        prices.append(price)
+                except Exception:
+                    continue
+
+            if len(prices) >= 5:
+                prices.sort()
+                # Remove top and bottom 10% to reduce outlier impact
+                trim = max(1, len(prices) // 10)
+                trimmed = prices[trim:-trim] if len(prices) > trim * 2 else prices
+                avg = round(sum(trimmed) / len(trimmed), 2)
+                print(f"  [{model}] Live market price: ${avg} (from {len(trimmed)} active listings)")
+                return avg, "live"
+            else:
+                print(f"  [{model}] Not enough clean listings ({len(prices)}), using fallback")
         else:
-            print(f"  [{model}] Insights API {response.status_code}, using fallback")
+            print(f"  [{model}] Browse API returned {response.status_code}, using fallback")
+
     except Exception as e:
         print(f"  [{model}] Error: {e}, using fallback")
+
     return FALLBACK_PRICES.get(model, 40.00), "fallback"
 
 def get_deal_tier(discount_pct):
@@ -124,7 +148,11 @@ def calc_profit(market_price, buy_price, shipping):
 def search_listings(token, query):
     headers = {"Authorization": f"Bearer {token}", "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"}
     params = {"q": query, "limit": 25, "sort": "newlyListed"}
-    response = requests.get("https://api.ebay.com/buy/browse/v1/item_summary/search", headers=headers, params=params)
+    response = requests.get(
+        "https://api.ebay.com/buy/browse/v1/item_summary/search",
+        headers=headers,
+        params=params
+    )
     if response.status_code != 200:
         print(f"  Warning: {response.status_code} for '{query}'")
         return []
@@ -168,9 +196,10 @@ def main():
     if not APP_ID or not CLIENT_SECRET:
         print("ERROR: EBAY_APP_ID and EBAY_CLIENT_SECRET environment variables are required.")
         sys.exit(1)
+
     token = get_access_token()
 
-    print("\n=== Calibrating market prices from eBay sold listings ===")
+    print("\n=== Calibrating market prices from active eBay listings ===")
     market_prices = {}
     price_sources = {}
     for model in FALLBACK_PRICES.keys():

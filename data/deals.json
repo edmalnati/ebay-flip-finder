@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T16:22:29.286796+00:00",
+  "last_updated": "2026-06-05T15:58:38.390475+00:00",
   "market_prices": {
     "PS4 DualShock 4": 13.92,
     "PS5 DualSense": 60.0,
@@ -31,6 +31,21 @@
       "date_posted": "2021-11-06"
     },
     {
+      "id": "v1|398028081401|0",
+      "title": "Xbox One Controller 1708 Microsoft - White FOR PARTS/Repair - No Battery Cap",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 5.74,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": 26.45,
+      "deal_tier": "great",
+      "discount_pct": 84.5,
+      "image_url": "https://i.ebayimg.com/images/g/-KMAAeSwmnBqIflp/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/398028081401?_skw=Xbox+One+controller+broken+parts+not+working&hash=item5cac5288f9:g:-KMAAeSwmnBqIflp",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|227362686288|0",
       "title": "Mech PowerA Advantage Wired Controller Xbox Series X|S - Stick Drift Parts Only",
       "model": "Xbox Series X/S",
@@ -46,6 +61,21 @@
       "date_posted": "2026-05-29"
     },
     {
+      "id": "v1|306983720528|0",
+      "title": "Sony PlayStation PS4 DualShock Wireless Controller Wash Blue FOR PARTS/REPAIR",
+      "model": "PS4 DualShock 4",
+      "status": "broken",
+      "buy_price": 8.0,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": 4.11,
+      "deal_tier": "great",
+      "discount_pct": 42.5,
+      "image_url": "https://i.ebayimg.com/images/g/D9oAAeSwhcRqIj-T/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/306983720528?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item4779a7d650:g:D9oAAeSwhcRqIj-T",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|127900185827|0",
       "title": "Sony PlayStation 4 PS4 DualShock 4 Wireless Controller Painted For Parts",
       "model": "PS4 DualShock 4",
@@ -59,21 +89,6 @@
       "image_url": "https://i.ebayimg.com/images/g/AMsAAeSwzvpqH39P/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/127900185827?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item1dc771f4e3:g:AMsAAeSwzvpqH39P",
       "date_posted": "2026-06-03"
-    },
-    {
-      "id": "v1|278045454614|0",
-      "title": "Microsoft Xbox One Wireless Gray Controller Model 1708 MissingCover PARTS REPAIR",
-      "model": "Xbox One/Series",
-      "status": "broken",
-      "buy_price": 8.0,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": 24.19,
-      "deal_tier": "great",
-      "discount_pct": 78.4,
-      "image_url": "https://i.ebayimg.com/images/g/ZhQAAeSw7kpp1qU8/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/278045454614?_skw=Xbox+One+controller+broken+parts+not+working&hash=item40bcccf116:g:ZhQAAeSw7kpp1qU8",
-      "date_posted": "2026-06-01"
     },
     {
       "id": "v1|287306201879|0",
@@ -121,34 +136,19 @@
       "date_posted": "2026-05-21"
     },
     {
-      "id": "v1|358620213614|0",
-      "title": "Sony DualShock 4 PS4 Controller Red (For Parts)",
-      "model": "PS4 DualShock 4",
+      "id": "v1|287370611648|0",
+      "title": "Xbox One Series X/S Controller White For Parts Working Condition Left Stick bad",
+      "model": "Xbox Series X/S",
       "status": "broken",
-      "buy_price": 9.0,
-      "shipping_price": 0.0,
-      "market_price": 13.92,
-      "profit_estimate": 3.11,
+      "buy_price": 9.35,
+      "shipping_price": 20.84,
+      "market_price": 55.0,
+      "profit_estimate": 17.66,
       "deal_tier": "great",
-      "discount_pct": 35.3,
-      "image_url": "https://i.ebayimg.com/images/g/uIIAAeSwKXZqG7Hz/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/358620213614?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item537f6e316e:g:uIIAAeSwKXZqG7Hz",
-      "date_posted": "2026-05-31"
-    },
-    {
-      "id": "v1|306976520755|0",
-      "title": "Xbox One Controller FOR PARTS OR REPAIR 1 Of The Directional Buttons Sticks",
-      "model": "Xbox One/Series",
-      "status": "broken",
-      "buy_price": 9.95,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": 22.24,
-      "deal_tier": "great",
-      "discount_pct": 73.1,
-      "image_url": "https://i.ebayimg.com/images/g/Jn4AAeSw54xqHbR8/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/306976520755?_skw=Xbox+One+controller+broken+parts+not+working&hash=item477939fa33:g:Jn4AAeSw54xqHbR8",
-      "date_posted": "2026-06-01"
+      "discount_pct": 45.1,
+      "image_url": "https://i.ebayimg.com/images/g/wzgAAeSwHC5qH3bB/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/287370611648?_skw=Xbox+Series+X+S+controller+used+working&hash=item42e89f8bc0:g:wzgAAeSwHC5qH3bB",
+      "date_posted": "2026-06-03"
     },
     {
       "id": "v1|800114001663|0",
@@ -166,19 +166,19 @@
       "date_posted": "2026-06-03"
     },
     {
-      "id": "v1|168425186802|0",
-      "title": "Microsoft Black Wireless Gaming Controller Xbox One Model 1708 - Parts/Untested",
+      "id": "v1|168431833019|0",
+      "title": "Blue Camo And Black Wired Controller for Xbox One - PDP 048-082, TESTED & WORKS",
       "model": "Xbox One/Series",
-      "status": "broken",
-      "buy_price": 9.99,
-      "shipping_price": 8.49,
+      "status": "working",
+      "buy_price": 10.0,
+      "shipping_price": 6.25,
       "market_price": 37.0,
-      "profit_estimate": 13.71,
+      "profit_estimate": 15.94,
       "deal_tier": "great",
-      "discount_pct": 50.1,
-      "image_url": "https://i.ebayimg.com/images/g/Sv4AAeSwB-1qH0rJ/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/168425186802?_skw=Xbox+One+controller+broken+parts+not+working&hash=item2736ec65f2:g:Sv4AAeSwB-1qH0rJ",
-      "date_posted": "2026-06-02"
+      "discount_pct": 56.1,
+      "image_url": "https://i.ebayimg.com/images/g/EggAAeSwYJNqIkQI/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/168431833019?_skw=Xbox+One+controller+used+working&hash=item273751cfbb:g:EggAAeSwYJNqIkQI",
+      "date_posted": "2026-06-05"
     },
     {
       "id": "v1|298341417772|0",
@@ -194,51 +194,6 @@
       "image_url": "https://i.ebayimg.com/images/g/GqIAAeSwhIJqD8vC/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/298341417772?_skw=Xbox+Series+X+S+controller+used+working&hash=item457688c32c:g:GqIAAeSwhIJqD8vC",
       "date_posted": "2026-05-22"
-    },
-    {
-      "id": "v1|377229258691|0",
-      "title": "Xbox One Controller for Parts/Repair",
-      "model": "Xbox One/Series",
-      "status": "broken",
-      "buy_price": 10.95,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": 21.24,
-      "deal_tier": "great",
-      "discount_pct": 70.4,
-      "image_url": "https://i.ebayimg.com/images/g/81oAAeSwKo5qHw20/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/377229258691?_skw=Xbox+One+controller+broken+parts+not+working&hash=item57d49dafc3:g:81oAAeSwKo5qHw20",
-      "date_posted": "2026-06-02"
-    },
-    {
-      "id": "v1|168425102800|0",
-      "title": "Microsoft Black Wireless Gaming Controller Xbox One Model 1708 - Parts/Untested",
-      "model": "Xbox One/Series",
-      "status": "broken",
-      "buy_price": 10.99,
-      "shipping_price": 8.49,
-      "market_price": 37.0,
-      "profit_estimate": 12.71,
-      "deal_tier": "great",
-      "discount_pct": 47.4,
-      "image_url": "https://i.ebayimg.com/images/g/5LEAAeSwwflqHz6l/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/168425102800?_skw=Xbox+One+controller+broken+parts+not+working&hash=item2736eb1dd0:g:5LEAAeSwwflqHz6l",
-      "date_posted": "2026-06-02"
-    },
-    {
-      "id": "v1|168425081991|0",
-      "title": "Xbox One 1708 Wireless Controller Special Edition - Night Ops Camo \u201cREAD\u201d -Parts",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 10.99,
-      "shipping_price": 8.49,
-      "market_price": 37.0,
-      "profit_estimate": 12.71,
-      "deal_tier": "great",
-      "discount_pct": 47.4,
-      "image_url": "https://i.ebayimg.com/images/g/2~sAAeSwvHJqHz8T/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/168425081991?_skw=Xbox+One+controller+broken+parts+not+working&hash=item2736eacc87:g:2~sAAeSwvHJqHz8T",
-      "date_posted": "2026-06-02"
     },
     {
       "id": "v1|168425099361|0",
@@ -258,16 +213,16 @@
     {
       "id": "v1|336614015361|0",
       "title": "Xbox One Series X/S Controller White For Parts Working Condition Left Stick Issu",
-      "model": "Xbox One/Series",
+      "model": "Xbox Series X/S",
       "status": "broken",
       "buy_price": 11.5,
       "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": 20.69,
+      "market_price": 55.0,
+      "profit_estimate": 36.35,
       "deal_tier": "great",
-      "discount_pct": 68.9,
+      "discount_pct": 79.1,
       "image_url": "https://i.ebayimg.com/images/g/3pYAAeSw8fpqHfsJ/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/336614015361?_skw=Xbox+One+controller+broken+parts+not+working&hash=item4e5fc24181:g:3pYAAeSw8fpqHfsJ",
+      "listing_url": "https://www.ebay.com/itm/336614015361?_skw=Xbox+Series+X+S+controller+broken+parts+not+working&hash=item4e5fc24181:g:3pYAAeSw8fpqHfsJ",
       "date_posted": "2026-06-01"
     },
     {
@@ -331,34 +286,79 @@
       "date_posted": "2026-06-03"
     },
     {
-      "id": "v1|206317125976|0",
-      "title": "Power A Blue Enhanced Wired Xbox One Controller Model 1518811-01 Parts Read",
+      "id": "v1|157970793644|0",
+      "title": "AtPlay Xbox One Wired Controller (No Cable) Tested And Working ML447",
       "model": "Xbox One/Series",
       "status": "working",
+      "buy_price": 13.97,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": 18.22,
+      "deal_tier": "great",
+      "discount_pct": 62.2,
+      "image_url": "https://i.ebayimg.com/images/g/Qk4AAeSwlphqIgFd/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/157970793644?_skw=Xbox+One+controller+used+working&hash=item24c7cb04ac:g:Qk4AAeSwlphqIgFd",
+      "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|137379227290|0",
+      "title": "Xbox One Controller Black Model 1537 for Parts or Repair 11",
+      "model": "Xbox One/Series",
+      "status": "broken",
       "buy_price": 13.99,
       "shipping_price": 0.0,
       "market_price": 37.0,
       "profit_estimate": 18.2,
       "deal_tier": "great",
       "discount_pct": 62.2,
-      "image_url": "https://i.ebayimg.com/images/g/Eg0AAeSwn6dqHwyj/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/206317125976?_skw=Xbox+One+controller+broken+parts+not+working&hash=item3009758158:g:Eg0AAeSwn6dqHwyj",
-      "date_posted": "2026-06-02"
+      "image_url": "https://i.ebayimg.com/images/g/cI8AAOSwdvpnGD8U/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137379227290?_skw=Xbox+One+controller+broken+parts+not+working&hash=item1ffc70a69a:g:cI8AAOSwdvpnGD8U",
+      "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|137379227360|0",
+      "title": "Xbox One Controller Night Ops for Parts or Repair 02",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 13.99,
+      "shipping_price": 5.0,
+      "market_price": 37.0,
+      "profit_estimate": 13.2,
+      "deal_tier": "great",
+      "discount_pct": 48.7,
+      "image_url": "https://i.ebayimg.com/images/g/Z2gAAOSwnzpnGEhL/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137379227360?_skw=Xbox+One+controller+broken+parts+not+working&hash=item1ffc70a6e0:g:Z2gAAOSwnzpnGEhL",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|398023261599|0",
       "title": "Xbox One Purple Controller for parts/repair, READ DESC !",
       "model": "Xbox One/Series",
       "status": "broken",
-      "buy_price": 14.39,
+      "buy_price": 14.38,
       "shipping_price": 0.0,
       "market_price": 37.0,
-      "profit_estimate": 17.8,
+      "profit_estimate": 17.81,
       "deal_tier": "great",
       "discount_pct": 61.1,
       "image_url": "https://i.ebayimg.com/images/g/yeYAAeSw9f1qIHLg/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/398023261599?_skw=Xbox+One+controller+broken+parts+not+working&hash=item5cac08fd9f:g:yeYAAeSw9f1qIHLg",
       "date_posted": "2026-06-03"
+    },
+    {
+      "id": "v1|137379175525|0",
+      "title": "Xbox One Controller Black Model 1537 for Parts or Repair 23",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 14.99,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": 17.2,
+      "deal_tier": "great",
+      "discount_pct": 59.5,
+      "image_url": "https://i.ebayimg.com/images/g/bx0AAOSwtpJnGD2L/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137379175525?_skw=Xbox+One+controller+broken+parts+not+working&hash=item1ffc6fdc65:g:bx0AAOSwtpJnGD2L",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|306974805944|0",
@@ -406,21 +406,6 @@
       "date_posted": "2026-05-30"
     },
     {
-      "id": "v1|318276742813|0",
-      "title": "Xbox Series X/S Controller Black Model 1914 - FOR PARTS/REPAIR - Left Joystick",
-      "model": "Xbox Series X/S",
-      "status": "broken",
-      "buy_price": 17.99,
-      "shipping_price": 0.0,
-      "market_price": 55.0,
-      "profit_estimate": 29.86,
-      "deal_tier": "great",
-      "discount_pct": 67.3,
-      "image_url": "https://i.ebayimg.com/images/g/ObIAAeSwNylp~7Bb/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/318276742813?_skw=Xbox+Series+X+S+controller+broken+parts+not+working&hash=item4a1ac5ae9d:g:ObIAAeSwNylp~7Bb",
-      "date_posted": "2026-05-09"
-    },
-    {
       "id": "v1|327172954809|0",
       "title": "GameSir G7 SE Xbox Gaming Controller for Xbox Series X S Parts Only",
       "model": "Xbox Series X/S",
@@ -451,21 +436,6 @@
       "date_posted": "2026-05-10"
     },
     {
-      "id": "v1|257545630945|0",
-      "title": "Tested Working Xbox One Wireless Bluetooth Controller Model 1708 - Black",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 18.5,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": 13.69,
-      "deal_tier": "great",
-      "discount_pct": 50.0,
-      "image_url": "https://i.ebayimg.com/images/g/WUwAAeSw9Z5qIRXK/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/257545630945?_skw=Xbox+One+controller+used+working&hash=item3bf6ea74e1:g:WUwAAeSw9Z5qIRXK",
-      "date_posted": "2026-06-04"
-    },
-    {
       "id": "v1|287361395292|0",
       "title": "Sony DualSense Wireless Controller for PlayStation 5 PS5 Black CFI-ZCT1W PARTS",
       "model": "PS5 DualSense",
@@ -479,6 +449,21 @@
       "image_url": "https://i.ebayimg.com/images/g/SQAAAeSww~FqGazN/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/287361395292?_skw=PS5+DualSense+controller+broken+parts+not+working&hash=item42e812ea5c:g:SQAAAeSww~FqGazN",
       "date_posted": "2026-05-29"
+    },
+    {
+      "id": "v1|800123789131|0",
+      "title": "Lot of 2 Microsoft Xbox One Wireless Controllers White Parts Repair #R129",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 18.77,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": 13.42,
+      "deal_tier": "great",
+      "discount_pct": 49.3,
+      "image_url": "https://i.ebayimg.com/images/g/qIMAAeSwcuNqIdBe/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/800123789131?_skw=Xbox+One+controller+broken+parts+not+working&hash=itemba4b181f4b:g:qIMAAeSwcuNqIdBe",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|257500408333|0",
@@ -511,19 +496,19 @@
       "date_posted": "2026-06-03"
     },
     {
-      "id": "v1|178187885390|0",
-      "title": "Microsoft 1708 Xbox One Controller - Black Tested Working",
+      "id": "v1|117230776388|0",
+      "title": "Lot Of 2 Xbox One Controllers For Parts In Box - Black",
       "model": "Xbox One/Series",
-      "status": "working",
+      "status": "broken",
       "buy_price": 19.99,
       "shipping_price": 0.0,
       "market_price": 37.0,
       "profit_estimate": 12.2,
       "deal_tier": "great",
       "discount_pct": 46.0,
-      "image_url": "https://i.ebayimg.com/images/g/bAMAAeSwhe1qH4R5/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/178187885390?_skw=Xbox+One+controller+used+working&hash=item297cd35b4e:g:bAMAAeSwhe1qH4R5",
-      "date_posted": "2026-06-03"
+      "image_url": "https://i.ebayimg.com/images/g/fWwAAeSwMrtqINKj/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/117230776388?_skw=Xbox+One+controller+broken+parts+not+working&hash=item1b4b7fb044:g:fWwAAeSwMrtqINKj",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|287372064846|0",
@@ -539,21 +524,6 @@
       "image_url": "https://i.ebayimg.com/images/g/sSAAAeSwtJZqIFqi/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/287372064846?_skw=Xbox+Series+X+S+controller+broken+parts+not+working&hash=item42e8b5b84e:g:sSAAAeSwtJZqIFqi",
       "date_posted": "2026-06-03"
-    },
-    {
-      "id": "v1|318336730435|0",
-      "title": "Xbox Series X/S Wireless- Robot White Controller Tested Working",
-      "model": "Xbox Series X/S",
-      "status": "working",
-      "buy_price": 19.99,
-      "shipping_price": 0.0,
-      "market_price": 55.0,
-      "profit_estimate": 27.86,
-      "deal_tier": "great",
-      "discount_pct": 63.7,
-      "image_url": "https://i.ebayimg.com/images/g/D6sAAeSw9zpqDq0V/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/318336730435?_skw=Xbox+Series+X+S+controller+used+working&hash=item4a1e590543:g:D6sAAeSw9zpqDq0V",
-      "date_posted": "2026-05-21"
     },
     {
       "id": "v1|406950837520|0",
@@ -584,21 +554,6 @@
       "image_url": "https://i.ebayimg.com/images/g/DCsAAeSwhzBp2FoU/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/206319900424?_skw=Xbox+One+controller+used+working&hash=item30099fd708:g:DCsAAeSwhzBp2FoU",
       "date_posted": "2026-06-03"
-    },
-    {
-      "id": "v1|157963551887|0",
-      "title": "Xbox One Wireless Controller 1697 White Black Working Tested",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 20.0,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": 12.19,
-      "deal_tier": "great",
-      "discount_pct": 45.9,
-      "image_url": "https://i.ebayimg.com/images/g/LJQAAeSwizRqHvdX/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/157963551887?_skw=Xbox+One+controller+used+working&hash=item24c75c848f:g:LJQAAeSwizRqHvdX",
-      "date_posted": "2026-06-02"
     },
     {
       "id": "v1|397951587933|0",
@@ -766,21 +721,6 @@
       "date_posted": "2026-05-25"
     },
     {
-      "id": "v1|377222261006|0",
-      "title": "Sony PlayStation 5 DualSense Camo Controller *FOR REPAIR or PARTS ONLY*",
-      "model": "PS5 DualSense",
-      "status": "broken",
-      "buy_price": 24.95,
-      "shipping_price": 0.0,
-      "market_price": 60.0,
-      "profit_estimate": 27.25,
-      "deal_tier": "great",
-      "discount_pct": 58.4,
-      "image_url": "https://i.ebayimg.com/images/g/xg4AAeSwD5hqG1Um/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/377222261006?_skw=PS5+DualSense+controller+broken+parts+not+working&hash=item57d432e90e:g:xg4AAeSwD5hqG1Um",
-      "date_posted": "2026-05-30"
-    },
-    {
       "id": "v1|178178471572|0",
       "title": "Black Dualsense PS5 Works Playstation 5 controller  Favor Union TMR joysticks",
       "model": "PS5 DualSense",
@@ -811,14 +751,29 @@
       "date_posted": "2026-05-23"
     },
     {
+      "id": "v1|188468131939|0",
+      "title": "Microsoft Xbox Series X|S Wireless Controller Deep Pink 1914 PARTS NOT TESTED",
+      "model": "Xbox Series X/S",
+      "status": "working",
+      "buy_price": 25.0,
+      "shipping_price": 0.0,
+      "market_price": 55.0,
+      "profit_estimate": 22.85,
+      "deal_tier": "great",
+      "discount_pct": 54.5,
+      "image_url": "https://i.ebayimg.com/images/g/N-sAAeSwSfhqIhwb/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/188468131939?_skw=Xbox+Series+X+S+controller+broken+parts+not+working&hash=item2be1937863:g:N-sAAeSwSfhqIhwb",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|168415444788|0",
       "title": "Genuine Microsoft Wireless Controller for Xbox One/Series S/X (Working)",
       "model": "Xbox Series X/S",
       "status": "working",
-      "buy_price": 25.63,
+      "buy_price": 25.65,
       "shipping_price": 0.0,
       "market_price": 55.0,
-      "profit_estimate": 22.22,
+      "profit_estimate": 22.2,
       "deal_tier": "great",
       "discount_pct": 53.4,
       "image_url": "https://i.ebayimg.com/images/g/4nMAAeSwgCVqGtRQ/s-l225.jpg",
@@ -901,6 +856,21 @@
       "date_posted": "2026-05-27"
     },
     {
+      "id": "v1|287376325354|0",
+      "title": "Sony DualSense Wireless PS5 Controller White/Black CFI-ZCT1W PARTS",
+      "model": "PS5 DualSense",
+      "status": "working",
+      "buy_price": 29.95,
+      "shipping_price": 0.0,
+      "market_price": 60.0,
+      "profit_estimate": 22.25,
+      "deal_tier": "great",
+      "discount_pct": 50.1,
+      "image_url": "https://i.ebayimg.com/images/g/ZYwAAeSwMmRqIuLu/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/287376325354?_skw=PS5+DualSense+controller+broken+parts+not+working&hash=item42e8f6baea:g:ZYwAAeSwMmRqIuLu",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|306979360967|0",
       "title": "Sony PlayStation 5 CFI-ZCT1W DualSense Wireless Controller - DRIFT - AS-IS/PARTS",
       "model": "PS5 DualSense",
@@ -974,6 +944,21 @@
       "image_url": "https://i.ebayimg.com/images/g/7YEAAeSwMqFpo~Uy/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/227364149221?_skw=Xbox+Series+X+S+controller+used+working&hash=item34eff597e5:g:7YEAAeSwMqFpo~Uy",
       "date_posted": "2026-05-30"
+    },
+    {
+      "id": "v1|206323359951|0",
+      "title": "Sony Playstation 5 Dualsense Controller Model CFI-ZCT1W   STICK DRIFT PARTS ONLY",
+      "model": "PS5 DualSense",
+      "status": "broken",
+      "buy_price": 30.0,
+      "shipping_price": 0.0,
+      "market_price": 60.0,
+      "profit_estimate": 22.2,
+      "deal_tier": "great",
+      "discount_pct": 50.0,
+      "image_url": "https://i.ebayimg.com/images/g/jZQAAeSwVGZqIldu/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/206323359951?_skw=PS5+DualSense+controller+broken+parts+not+working&hash=item3009d4a0cf:g:jZQAAeSwVGZqIldu",
+      "date_posted": "2026-06-05"
     },
     {
       "id": "v1|336612824823|0",
@@ -1051,19 +1036,19 @@
       "date_posted": "2026-05-24"
     },
     {
-      "id": "v1|318243382626|0",
-      "title": "Sony DualSense Wireless PS5 Controller - White Tested Working Playstation",
+      "id": "v1|137379731120|0",
+      "title": "Sony DualSense Wireless Controller for PlayStation 5 - White TESTED, WORKS",
       "model": "PS5 DualSense",
       "status": "working",
-      "buy_price": 32.99,
+      "buy_price": 32.5,
       "shipping_price": 0.0,
       "market_price": 60.0,
-      "profit_estimate": 19.21,
+      "profit_estimate": 19.7,
       "deal_tier": "great",
-      "discount_pct": 45.0,
-      "image_url": "https://i.ebayimg.com/images/g/HkQAAeSwf5Np94RP/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/318243382626?_skw=PS5+DualSense+controller+used+working&hash=item4a18c8a562:g:HkQAAeSwf5Np94RP",
-      "date_posted": "2026-05-03"
+      "discount_pct": 45.8,
+      "image_url": "https://i.ebayimg.com/images/g/~lQAAeSweShqId5-/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137379731120?_skw=PS5+DualSense+controller+used+working&hash=item1ffc7856b0:g:~lQAAeSweShqId5-",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|306959951257|0",
@@ -1171,36 +1156,6 @@
       "date_posted": "2026-06-02"
     },
     {
-      "id": "v1|198345877829|0",
-      "title": "Sony PS4 DualShock 4 Wireless Controller Blue Camouflage For Parts or Repair",
-      "model": "PS4 DualShock 4",
-      "status": "broken",
-      "buy_price": 9.99,
-      "shipping_price": 0.0,
-      "market_price": 13.92,
-      "profit_estimate": 2.12,
-      "deal_tier": "good",
-      "discount_pct": 28.2,
-      "image_url": "https://i.ebayimg.com/images/g/DWkAAeSwBe1p~22-/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/198345877829?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item2e2e55e945:g:DWkAAeSwBe1p~22-",
-      "date_posted": "2026-05-31"
-    },
-    {
-      "id": "v1|127898449404|0",
-      "title": "Xbox One Controller White - FOR PARTS OR REPAIR Stick Drift Box Included",
-      "model": "Xbox One/Series",
-      "status": "broken",
-      "buy_price": 15.99,
-      "shipping_price": 10.0,
-      "market_price": 37.0,
-      "profit_estimate": 6.2,
-      "deal_tier": "good",
-      "discount_pct": 29.8,
-      "image_url": "https://i.ebayimg.com/images/g/ONsAAeSwXk5qHjIB/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/127898449404?_skw=Xbox+One+controller+broken+parts+not+working&hash=item1dc75775fc:g:ONsAAeSwXk5qHjIB",
-      "date_posted": "2026-06-02"
-    },
-    {
       "id": "v1|236855973679|0",
       "title": "MICROSOFT XBOX ONE CONTROLLER WIRELESS 1537 Parts Only, Not Working!  Complete!",
       "model": "Xbox One/Series",
@@ -1246,64 +1201,34 @@
       "date_posted": "2026-06-03"
     },
     {
-      "id": "v1|198395004175|0",
-      "title": "Microsoft Xbox One Elite Series 1 Controller FOR PARTS ",
+      "id": "v1|287376138851|0",
+      "title": "Rock Candy Wired Red Microsoft Xbox One Controller! Works Great! Fast Shipping!",
       "model": "Xbox One/Series",
-      "status": "broken",
-      "buy_price": 24.95,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": 7.24,
-      "deal_tier": "good",
-      "discount_pct": 32.6,
-      "image_url": "https://i.ebayimg.com/images/g/FSAAAeSwx81qHaCf/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/198395004175?_skw=Xbox+One+controller+broken+parts+not+working&hash=item2e3143850f:g:FSAAAeSwx81qHaCf",
-      "date_posted": "2026-06-01"
-    },
-    {
-      "id": "v1|117230776388|0",
-      "title": "Lot Of 2 Xbox One Controllers For Parts In Box - Black",
-      "model": "Xbox One/Series",
-      "status": "broken",
+      "status": "working",
       "buy_price": 24.99,
       "shipping_price": 0.0,
       "market_price": 37.0,
       "profit_estimate": 7.2,
       "deal_tier": "good",
       "discount_pct": 32.5,
-      "image_url": "https://i.ebayimg.com/images/g/fWwAAeSwMrtqINKj/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/117230776388?_skw=Xbox+One+controller+broken+parts+not+working&hash=item1b4b7fb044:g:fWwAAeSwMrtqINKj",
-      "date_posted": "2026-06-04"
+      "image_url": "https://i.ebayimg.com/images/g/fjIAAeSwK6xqIsYX/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/287376138851?_skw=Xbox+One+controller+used+working&hash=item42e8f3e263:g:fjIAAeSwK6xqIsYX",
+      "date_posted": "2026-06-05"
     },
     {
-      "id": "v1|287372737557|0",
-      "title": "Official Microsoft Xbox One Wireless Controller Model 1708 - Red Works Missing",
-      "model": "Xbox One/Series",
+      "id": "v1|227370253906|0",
+      "title": "Sony PlayStation5 DualSense Wireless Controller PS5 Built-In Mic CFI-ZCT1W Works",
+      "model": "PS5 DualSense",
       "status": "working",
-      "buy_price": 25.0,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": 7.19,
+      "buy_price": 33.97,
+      "shipping_price": 10.76,
+      "market_price": 60.0,
+      "profit_estimate": 7.47,
       "deal_tier": "good",
-      "discount_pct": 32.4,
-      "image_url": "https://i.ebayimg.com/images/g/BrQAAeSwu-dqIMV2/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/287372737557?_skw=Xbox+One+controller+used+working&hash=item42e8bffc15:g:BrQAAeSwu-dqIMV2",
-      "date_posted": "2026-06-04"
-    },
-    {
-      "id": "v1|157961450208|0",
-      "title": "Microsoft Xbox One Wireless Controllers Black & White Lot of 2 1708 1537 Parts",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 26.99,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": 5.2,
-      "deal_tier": "good",
-      "discount_pct": 27.1,
-      "image_url": "https://i.ebayimg.com/images/g/u0sAAeSwPaJp7MZo/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/157961450208?_skw=Xbox+One+controller+broken+parts+not+working&hash=item24c73c72e0:g:u0sAAeSwPaJp7MZo",
-      "date_posted": "2026-06-01"
+      "discount_pct": 25.4,
+      "image_url": "https://i.ebayimg.com/images/g/oVsAAeSwB49qH5tU/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/227370253906?_skw=PS5+DualSense+controller+used+working&hash=item34f052be52:g:oVsAAeSwB49qH5tU",
+      "date_posted": "2026-06-03"
     },
     {
       "id": "v1|377196306405|0",
@@ -1336,6 +1261,21 @@
       "date_posted": "2026-06-01"
     },
     {
+      "id": "v1|278055675712|0",
+      "title": "Sony PlayStation 5 DualSense Wireless Controller White PS5 OEM Used/Working",
+      "model": "PS5 DualSense",
+      "status": "working",
+      "buy_price": 39.99,
+      "shipping_price": 0.0,
+      "market_price": 60.0,
+      "profit_estimate": 12.21,
+      "deal_tier": "good",
+      "discount_pct": 33.3,
+      "image_url": "https://i.ebayimg.com/images/g/AFgAAeSwtMNqIg2H/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/278055675712?_skw=PS5+DualSense+controller+used+working&hash=item40bd68e740:g:AFgAAeSwtMNqIg2H",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|168380661452|0",
       "title": "Sony PlayStation 5 PS5 White DualSense Controller w/ Case - Tested & Working!",
       "model": "PS5 DualSense",
@@ -1349,21 +1289,6 @@
       "image_url": "https://i.ebayimg.com/images/g/4KoAAeSwaWlpytCW/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/168380661452?_skw=PS5+DualSense+controller+used+working&hash=item273444fecc:g:4KoAAeSwaWlpytCW",
       "date_posted": "2026-05-17"
-    },
-    {
-      "id": "v1|389966023177|0",
-      "title": "Sony PS5 DualSense Wireless Controller White OEM PlayStation 5 Tested Works",
-      "model": "PS5 DualSense",
-      "status": "working",
-      "buy_price": 39.99,
-      "shipping_price": 0.0,
-      "market_price": 60.0,
-      "profit_estimate": 12.21,
-      "deal_tier": "good",
-      "discount_pct": 33.3,
-      "image_url": "https://i.ebayimg.com/images/g/a3IAAeSwATdp9jqT/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/389966023177?_skw=PS5+DualSense+controller+used+working&hash=item5acbc94a09:g:a3IAAeSwATdp9jqT",
-      "date_posted": "2026-05-02"
     },
     {
       "id": "v1|168428694681|0",
@@ -1531,21 +1456,6 @@
       "date_posted": "2026-05-15"
     },
     {
-      "id": "v1|318389044517|0",
-      "title": "Sony CUH-ZCT1J DualShock Wireless Controller Clear Crystal PS4 Parts/Repair",
-      "model": "PS4 DualShock 4",
-      "status": "broken",
-      "buy_price": 12.0,
-      "shipping_price": 0.0,
-      "market_price": 13.92,
-      "profit_estimate": 0.11,
-      "deal_tier": "fair",
-      "discount_pct": 13.8,
-      "image_url": "https://i.ebayimg.com/images/g/IqsAAeSwEmJqHCkN/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/318389044517?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item4a21774525:g:IqsAAeSwEmJqHCkN",
-      "date_posted": "2026-05-31"
-    },
-    {
       "id": "v1|406969494970|0",
       "title": "PS4 DualShock 4 Wireless Controller - Navy - Tested Working - Good Condition",
       "model": "PS4 DualShock 4",
@@ -1558,21 +1468,6 @@
       "discount_pct": 10.3,
       "image_url": "https://i.ebayimg.com/images/g/39UAAeSwiSdqH0Ni/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/406969494970?_skw=PS4+DualShock+4+controller+used+working&hash=item5ec145adba:g:39UAAeSwiSdqH0Ni",
-      "date_posted": "2026-06-02"
-    },
-    {
-      "id": "v1|406969492259|0",
-      "title": "PS4 DualShock 4 Wireless Controller - Camo - Tested Working - Good Condition",
-      "model": "PS4 DualShock 4",
-      "status": "working",
-      "buy_price": 12.49,
-      "shipping_price": 0.0,
-      "market_price": 13.92,
-      "profit_estimate": -0.38,
-      "deal_tier": "fair",
-      "discount_pct": 10.3,
-      "image_url": "https://i.ebayimg.com/images/g/A6EAAeSwarlqH0J4/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/406969492259?_skw=PS4+DualShock+4+controller+used+working&hash=item5ec145a323:g:A6EAAeSwarlqH0J4",
       "date_posted": "2026-06-02"
     },
     {
@@ -1591,6 +1486,21 @@
       "date_posted": "2026-06-02"
     },
     {
+      "id": "v1|298386138659|0",
+      "title": "Sony Playstation 4 DualShock Wireless Controller - FOR PARTS",
+      "model": "PS4 DualShock 4",
+      "status": "broken",
+      "buy_price": 13.65,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": -1.54,
+      "deal_tier": "fair",
+      "discount_pct": 1.9,
+      "image_url": "https://i.ebayimg.com/images/g/nwIAAeSwHClqIlPu/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/298386138659?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item4579332623:g:nwIAAeSwHClqIlPu",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|157764083541|0",
       "title": "Nintendo Switch Joy-Con Left Blue Controller Drift For Parts Repair",
       "model": "Joy-Con",
@@ -1604,21 +1514,6 @@
       "image_url": "https://i.ebayimg.com/images/g/Ar8AAeSwyIRpucTP/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/157764083541?_skw=Nintendo+Switch+Joy-Con+broken+drift+parts+not+working&hash=item24bb78df55:g:Ar8AAeSwyIRpucTP",
       "date_posted": "2026-03-17"
-    },
-    {
-      "id": "v1|287370611648|0",
-      "title": "Xbox One Series X/S Controller White For Parts Working Condition Left Stick bad",
-      "model": "Xbox One/Series",
-      "status": "broken",
-      "buy_price": 17.99,
-      "shipping_price": 18.7,
-      "market_price": 37.0,
-      "profit_estimate": -4.5,
-      "deal_tier": "fair",
-      "discount_pct": 0.8,
-      "image_url": "https://i.ebayimg.com/images/g/wzgAAeSwHC5qH3bB/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/287370611648?_skw=Xbox+One+controller+used+working&hash=item42e89f8bc0:g:wzgAAeSwHC5qH3bB",
-      "date_posted": "2026-06-03"
     },
     {
       "id": "v1|178191255976|0",
@@ -1636,6 +1531,21 @@
       "date_posted": "2026-06-04"
     },
     {
+      "id": "v1|287374716807|0",
+      "title": "Microsoft Xbox One Elite Series 1 Controller FOR PARTS Untested 1698",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 29.99,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": 2.2,
+      "deal_tier": "fair",
+      "discount_pct": 18.9,
+      "image_url": "https://i.ebayimg.com/images/g/w0AAAeSwTbVqId4n/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/287374716807?_skw=Xbox+One+controller+broken+parts+not+working&hash=item42e8de2f87:g:w0AAAeSwTbVqId4n",
+      "date_posted": "2026-06-04"
+    },
+    {
       "id": "v1|117231743577|0",
       "title": "Microsoft Xbox One Wireless Controllers For Parts Or Repair Lot Of 3 Untested ",
       "model": "Xbox One/Series",
@@ -1649,6 +1559,21 @@
       "image_url": "https://i.ebayimg.com/images/g/RWwAAeSwuJJqIZi6/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/117231743577?_skw=Xbox+One+controller+broken+parts+not+working&hash=item1b4b8e7259:g:RWwAAeSwuJJqIZi6",
       "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|398028058645|0",
+      "title": "Microsoft Xbox One Wireless Controller - WHITE Model: 1708 - TESTED WORKING",
+      "model": "Xbox One/Series",
+      "status": "working",
+      "buy_price": 29.99,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": 2.2,
+      "deal_tier": "fair",
+      "discount_pct": 18.9,
+      "image_url": "https://i.ebayimg.com/images/g/0ywAAeSwoUpqIhPQ/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/398028058645?_skw=Xbox+One+controller+used+working&hash=item5cac523015:g:0ywAAeSwoUpqIhPQ",
+      "date_posted": "2026-06-05"
     },
     {
       "id": "v1|157967485051|0",
@@ -1696,19 +1621,34 @@
       "date_posted": "2026-06-03"
     },
     {
-      "id": "v1|227370253906|0",
-      "title": "Sony PlayStation5 DualSense Wireless Controller PS5 Built-In Mic CFI-ZCT1W Works",
-      "model": "PS5 DualSense",
-      "status": "working",
-      "buy_price": 38.99,
-      "shipping_price": 10.76,
-      "market_price": 60.0,
-      "profit_estimate": 2.45,
+      "id": "v1|157970672931|0",
+      "title": "FOR PARTS - Xbox One Elite Series 1 (1698) Wireless Bluetooth Controller - READ",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 34.99,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -2.8,
       "deal_tier": "fair",
-      "discount_pct": 17.1,
-      "image_url": "https://i.ebayimg.com/images/g/oVsAAeSwB49qH5tU/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/227370253906?_skw=PS5+DualSense+controller+used+working&hash=item34f052be52:g:oVsAAeSwB49qH5tU",
-      "date_posted": "2026-06-03"
+      "discount_pct": 5.4,
+      "image_url": "https://i.ebayimg.com/images/g/xusAAeSwhcRqIfCp/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/157970672931?_skw=Xbox+One+controller+broken+parts+not+working&hash=item24c7c92d23:g:xusAAeSwhcRqIfCp",
+      "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|168431245547|0",
+      "title": "FOR PARTS - Xbox One Elite Series 1 (1698) Wireless Bluetooth Controller - READ",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 34.99,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -2.8,
+      "deal_tier": "fair",
+      "discount_pct": 5.4,
+      "image_url": "https://i.ebayimg.com/images/g/juUAAeSw6B9qIey7/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/168431245547?_skw=Xbox+One+controller+broken+parts+not+working&hash=item273748d8eb:g:juUAAeSw6B9qIey7",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|227331500313|0",
@@ -1831,21 +1771,6 @@
       "date_posted": "2026-06-02"
     },
     {
-      "id": "v1|358623429437|0",
-      "title": "Sony PlayStation 4 PS4 Dualshock Wireless Controller Black 4 Parts/Repair",
-      "model": "PS4 DualShock 4",
-      "status": "broken",
-      "buy_price": 12.0,
-      "shipping_price": 6.5,
-      "market_price": 13.92,
-      "profit_estimate": -6.39,
-      "deal_tier": "unfair",
-      "discount_pct": -32.9,
-      "image_url": "https://i.ebayimg.com/images/g/MBYAAeSwRHFqHO1i/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/358623429437?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item537f9f433d:g:MBYAAeSwRHFqHO1i",
-      "date_posted": "2026-06-01"
-    },
-    {
       "id": "v1|236850678656|0",
       "title": "Sony DualShock 4 Wireless Controller for PS4 - Red - FOR PARTS NOT WORKING",
       "model": "PS4 DualShock 4",
@@ -1859,6 +1784,36 @@
       "image_url": "https://i.ebayimg.com/images/g/ALMAAeSwn2hpb6ja/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/236850678656?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item3725668b80:g:ALMAAeSwn2hpb6ja",
       "date_posted": "2026-06-01"
+    },
+    {
+      "id": "v1|137379227419|0",
+      "title": "Sony PlayStation DualShock 4 Wireless Controller Camo for Parts or Repair 13",
+      "model": "PS4 DualShock 4",
+      "status": "broken",
+      "buy_price": 12.99,
+      "shipping_price": 5.0,
+      "market_price": 13.92,
+      "profit_estimate": -5.88,
+      "deal_tier": "unfair",
+      "discount_pct": -29.2,
+      "image_url": "https://i.ebayimg.com/images/g/RL4AAOSwwMNnItff/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137379227419?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item1ffc70a71b:g:RL4AAOSwwMNnItff",
+      "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|137379175346|0",
+      "title": "Sony PlayStation DualShock 4 Wireless Controller Black for Parts or Repair 12",
+      "model": "PS4 DualShock 4",
+      "status": "broken",
+      "buy_price": 12.99,
+      "shipping_price": 5.0,
+      "market_price": 13.92,
+      "profit_estimate": -5.88,
+      "deal_tier": "unfair",
+      "discount_pct": -29.2,
+      "image_url": "https://i.ebayimg.com/images/g/lScAAOSwikxnItgT/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137379175346?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item1ffc6fdbb2:g:lScAAOSwikxnItgT",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|278044793195|0",
@@ -1921,36 +1876,6 @@
       "date_posted": "2026-06-01"
     },
     {
-      "id": "v1|377220770587|0",
-      "title": "Sony ps4 DualShock 4 wireless controller - black - tested and working",
-      "model": "PS4 DualShock 4",
-      "status": "working",
-      "buy_price": 15.0,
-      "shipping_price": 6.5,
-      "market_price": 13.92,
-      "profit_estimate": -9.39,
-      "deal_tier": "unfair",
-      "discount_pct": -54.5,
-      "image_url": "https://i.ebayimg.com/images/g/zU4AAeSwY41qHN6k/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/377220770587?_skw=PS4+DualShock+4+controller+used+working&hash=item57d41c2b1b:g:zU4AAeSwY41qHN6k",
-      "date_posted": "2026-05-30"
-    },
-    {
-      "id": "v1|377220749638|0",
-      "title": "Sony ps4 DualShock 4 wireless controller - white - tested and working",
-      "model": "PS4 DualShock 4",
-      "status": "working",
-      "buy_price": 15.0,
-      "shipping_price": 6.5,
-      "market_price": 13.92,
-      "profit_estimate": -9.39,
-      "deal_tier": "unfair",
-      "discount_pct": -54.5,
-      "image_url": "https://i.ebayimg.com/images/g/0awAAeSwlMZqHN9B/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/377220749638?_skw=PS4+DualShock+4+controller+used+working&hash=item57d41bd946:g:0awAAeSwlMZqHN9B",
-      "date_posted": "2026-05-30"
-    },
-    {
       "id": "v1|298379139880|0",
       "title": "OEM Conductive Film Ribbon Keypad Flex Cable For Sony PS4 Dualshock Rumble",
       "model": "PS4 DualShock 4",
@@ -1964,21 +1889,6 @@
       "image_url": "https://i.ebayimg.com/images/g/w2EAAeSwqkdpuzr0/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/298379139880?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item4578c85b28:g:w2EAAeSwqkdpuzr0",
       "date_posted": "2026-06-02"
-    },
-    {
-      "id": "v1|178184146756|0",
-      "title": "Sony DualShock 4 Wireless Bluetooth Controller for PS4, Black, for parts repair",
-      "model": "PS4 DualShock 4",
-      "status": "broken",
-      "buy_price": 16.0,
-      "shipping_price": 0.0,
-      "market_price": 13.92,
-      "profit_estimate": -3.89,
-      "deal_tier": "unfair",
-      "discount_pct": -14.9,
-      "image_url": "https://i.ebayimg.com/images/g/9LoAAeSw-BlqHb8b/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/178184146756?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item297c9a4f44:g:9LoAAeSw-BlqHb8b",
-      "date_posted": "2026-06-01"
     },
     {
       "id": "v1|287367858124|0",
@@ -1996,19 +1906,19 @@
       "date_posted": "2026-06-01"
     },
     {
-      "id": "v1|336612698077|0",
-      "title": "PS4 DualShock 4 Controller For Parts/ Repair Black",
+      "id": "v1|157957593041|0",
+      "title": "Sony DualShock 4 Wireless Controller Black PS4 OEM CUH-ZCT2U Tested Working",
       "model": "PS4 DualShock 4",
-      "status": "broken",
-      "buy_price": 17.99,
-      "shipping_price": 0.0,
+      "status": "working",
+      "buy_price": 17.09,
+      "shipping_price": 8.57,
       "market_price": 13.92,
-      "profit_estimate": -5.88,
+      "profit_estimate": -13.55,
       "deal_tier": "unfair",
-      "discount_pct": -29.2,
-      "image_url": "https://i.ebayimg.com/images/g/ztoAAOSwQkFoOTNP/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/336612698077?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item4e5fae27dd:g:ztoAAOSwQkFoOTNP",
-      "date_posted": "2026-06-01"
+      "discount_pct": -84.3,
+      "image_url": "https://i.ebayimg.com/images/g/EZMAAeSwmoJqHEph/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/157957593041?_skw=PS4+DualShock+4+controller+used+working&hash=item24c70197d1:g:EZMAAeSwmoJqHEph",
+      "date_posted": "2026-05-31"
     },
     {
       "id": "v1|227369051567|0",
@@ -2026,6 +1936,21 @@
       "date_posted": "2026-06-02"
     },
     {
+      "id": "v1|188444394005|0",
+      "title": "PlayStation 4 - OEM PS4 Magma Red DualShock 4 Wireless Controller Tested Working",
+      "model": "PS4 DualShock 4",
+      "status": "working",
+      "buy_price": 17.99,
+      "shipping_price": 8.0,
+      "market_price": 13.92,
+      "profit_estimate": -13.88,
+      "deal_tier": "unfair",
+      "discount_pct": -86.7,
+      "image_url": "https://i.ebayimg.com/images/g/XVgAAeSwv05qGwm0/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/188444394005?_skw=PS4+DualShock+4+controller+used+working&hash=item2be0294215:g:XVgAAeSwv05qGwm0",
+      "date_posted": "2026-05-30"
+    },
+    {
       "id": "v1|157760380445|0",
       "title": "Nintendo Switch OLED Right Joy-Con White Controller Drift A Button Issue Parts",
       "model": "Joy-Con",
@@ -2039,21 +1964,6 @@
       "image_url": "https://i.ebayimg.com/images/g/ui8AAeSwkt9puEmu/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/157760380445?_skw=Nintendo+Switch+Joy-Con+broken+drift+parts+not+working&hash=item24bb405e1d:g:ui8AAeSwkt9puEmu",
       "date_posted": "2026-03-16"
-    },
-    {
-      "id": "v1|157957593041|0",
-      "title": "Sony DualShock 4 Wireless Controller Black PS4 OEM CUH-ZCT2U Tested Working",
-      "model": "PS4 DualShock 4",
-      "status": "working",
-      "buy_price": 18.99,
-      "shipping_price": 8.57,
-      "market_price": 13.92,
-      "profit_estimate": -15.45,
-      "deal_tier": "unfair",
-      "discount_pct": -98.0,
-      "image_url": "https://i.ebayimg.com/images/g/EZMAAeSwmoJqHEph/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/157957593041?_skw=PS4+DualShock+4+controller+used+working&hash=item24c70197d1:g:EZMAAeSwmoJqHEph",
-      "date_posted": "2026-05-31"
     },
     {
       "id": "v1|188441830766|0",
@@ -2071,6 +1981,21 @@
       "date_posted": "2026-05-30"
     },
     {
+      "id": "v1|227373361257|0",
+      "title": "Sony DualShock 4 Wireless Black Playstation 4 PS4 Controller Tested Working",
+      "model": "PS4 DualShock 4",
+      "status": "working",
+      "buy_price": 19.95,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": -7.84,
+      "deal_tier": "unfair",
+      "discount_pct": -43.3,
+      "image_url": "https://i.ebayimg.com/images/g/lVsAAeSwZXFqIhI4/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/227373361257?_skw=PS4+DualShock+4+controller+used+working&hash=item34f0822869:g:lVsAAeSwZXFqIhI4",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|276309573846|0",
       "title": "For Parts Drift Broke Genuine OEM Nintendo Switch Joy Con Controller Left",
       "model": "Joy-Con",
@@ -2084,21 +2009,6 @@
       "image_url": "https://i.ebayimg.com/images/g/AwwAAOSwTs1luAta/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/276309573846?_skw=Nintendo+Switch+Joy-Con+broken+drift+parts+not+working&hash=item40555580d6:g:AwwAAOSwTs1luAta",
       "date_posted": "2024-01-29"
-    },
-    {
-      "id": "v1|188444394005|0",
-      "title": "PlayStation 4 - OEM PS4 Magma Red DualShock 4 Wireless Controller Tested Working",
-      "model": "PS4 DualShock 4",
-      "status": "working",
-      "buy_price": 19.99,
-      "shipping_price": 8.0,
-      "market_price": 13.92,
-      "profit_estimate": -15.88,
-      "deal_tier": "unfair",
-      "discount_pct": -101.1,
-      "image_url": "https://i.ebayimg.com/images/g/XVgAAeSwv05qGwm0/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/188444394005?_skw=PS4+DualShock+4+controller+used+working&hash=item2be0294215:g:XVgAAeSwv05qGwm0",
-      "date_posted": "2026-05-30"
     },
     {
       "id": "v1|127892448733|0",
@@ -2161,6 +2071,21 @@
       "date_posted": "2026-06-02"
     },
     {
+      "id": "v1|800125018501|0",
+      "title": "Sony PS4 DualShock 4 Gray White Camo Wireless Controller Untested For Parts",
+      "model": "PS4 DualShock 4",
+      "status": "broken",
+      "buy_price": 22.99,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": -10.88,
+      "deal_tier": "unfair",
+      "discount_pct": -65.2,
+      "image_url": "https://i.ebayimg.com/images/g/Za0AAeSwYQpqIi-M/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/800125018501?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=itemba4b2ae185:g:Za0AAeSwYQpqIi-M",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|406964492074|0",
       "title": "PlayStation 4 - OEM PS4 Magma Red DualShock 4 Wireless Controller Tested Working",
       "model": "PS4 DualShock 4",
@@ -2176,6 +2101,21 @@
       "date_posted": "2026-05-31"
     },
     {
+      "id": "v1|178193686654|0",
+      "title": "Sony DualShock 4 Wireless Controller Blue for Sony PlayStation 4 tested working",
+      "model": "PS4 DualShock 4",
+      "status": "working",
+      "buy_price": 23.5,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": -11.39,
+      "deal_tier": "unfair",
+      "discount_pct": -68.8,
+      "image_url": "https://i.ebayimg.com/images/g/Rb8AAeSwxv5qIgCU/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/178193686654?_skw=PS4+DualShock+4+controller+used+working&hash=item297d2be07e:g:Rb8AAeSwxv5qIgCU",
+      "date_posted": "2026-06-04"
+    },
+    {
       "id": "v1|188458094590|0",
       "title": "Used Sony PS4 DualShock Wireless Controller Red Tested - Working- No issues",
       "model": "PS4 DualShock 4",
@@ -2189,6 +2129,21 @@
       "image_url": "https://i.ebayimg.com/images/g/WcgAAeSwov5qHyiz/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/188458094590?_skw=PS4+DualShock+4+controller+used+working&hash=item2be0fa4ffe:g:WcgAAeSwov5qHyiz",
       "date_posted": "2026-06-02"
+    },
+    {
+      "id": "v1|278055613759|0",
+      "title": "PS4 Gray Camouflage DualShock 4 Controller Tested And Working!",
+      "model": "PS4 DualShock 4",
+      "status": "working",
+      "buy_price": 24.99,
+      "shipping_price": 10.0,
+      "market_price": 13.92,
+      "profit_estimate": -22.88,
+      "deal_tier": "unfair",
+      "discount_pct": -151.4,
+      "image_url": "https://i.ebayimg.com/images/g/CvUAAeSwsrlqIgA6/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/278055613759?_skw=PS4+DualShock+4+controller+used+working&hash=item40bd67f53f:g:CvUAAeSwsrlqIgA6",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|198388867094|0",
@@ -2221,6 +2176,36 @@
       "date_posted": "2026-06-02"
     },
     {
+      "id": "v1|157970455591|0",
+      "title": "OEM Sony Playstation 4 PS4 DualShock 4 Wireless Controller Blue TESTED WORKING ",
+      "model": "PS4 DualShock 4",
+      "status": "working",
+      "buy_price": 25.95,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": -13.84,
+      "deal_tier": "unfair",
+      "discount_pct": -86.4,
+      "image_url": "https://i.ebayimg.com/images/g/5LcAAeSwDpFqIdZQ/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/157970455591?_skw=PS4+DualShock+4+controller+used+working&hash=item24c7c5dc27:g:5LcAAeSwDpFqIdZQ",
+      "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|168431679082|0",
+      "title": "Sony PlayStation 4 PS4 Controller DualShock 4 OEM Black Wireless Tested Working",
+      "model": "PS4 DualShock 4",
+      "status": "working",
+      "buy_price": 25.99,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": -13.88,
+      "deal_tier": "unfair",
+      "discount_pct": -86.7,
+      "image_url": "https://i.ebayimg.com/images/g/co4AAeSwATRqIjNR/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/168431679082?_skw=PS4+DualShock+4+controller+used+working&hash=item27374f766a:g:co4AAeSwATRqIjNR",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|366444689882|0",
       "title": "DualShock 4 Wireless Controller for PlayStation 4 Working See Description",
       "model": "PS4 DualShock 4",
@@ -2234,6 +2219,21 @@
       "image_url": "https://i.ebayimg.com/images/g/kW4AAeSwn75qFyKz/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/366444689882?_skw=PS4+DualShock+4+controller+used+working&hash=item5551ce39da:g:kW4AAeSwn75qFyKz",
       "date_posted": "2026-05-30"
+    },
+    {
+      "id": "v1|406974439783|0",
+      "title": "Nintendo Switch Joy-Con Pair Neon Red and Neon Blue Tested Working Pre-Owned OEM",
+      "model": "Joy-Con",
+      "status": "working",
+      "buy_price": 26.99,
+      "shipping_price": 0.0,
+      "market_price": 15.67,
+      "profit_estimate": -13.36,
+      "deal_tier": "unfair",
+      "discount_pct": -72.2,
+      "image_url": "https://i.ebayimg.com/images/g/5kEAAeSweKtqIdu2/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/406974439783?_skw=Nintendo+Switch+Joy-Con+used+working+pair&hash=item5ec1912167:g:5kEAAeSweKtqIdu2",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|800102442934|0",
@@ -2308,36 +2308,6 @@
       "discount_pct": -115.4,
       "image_url": "https://i.ebayimg.com/images/g/p~0AAeSwizRqHfDI/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/127898055827?_skw=PS4+DualShock+4+controller+used+working&hash=item1dc7517493:g:p~0AAeSwizRqHfDI",
-      "date_posted": "2026-06-01"
-    },
-    {
-      "id": "v1|800090919977|0",
-      "title": "Sony Playstation PS4 DualShock Wireless Controller Jet Black OEM Tested Works",
-      "model": "PS4 DualShock 4",
-      "status": "working",
-      "buy_price": 29.99,
-      "shipping_price": 0.0,
-      "market_price": 13.92,
-      "profit_estimate": -17.88,
-      "deal_tier": "unfair",
-      "discount_pct": -115.4,
-      "image_url": "https://i.ebayimg.com/images/g/4wsAAeSwuElqGUa4/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/800090919977?_skw=PS4+DualShock+4+controller+used+working&hash=itemba49229429:g:4wsAAeSwuElqGUa4",
-      "date_posted": "2026-05-29"
-    },
-    {
-      "id": "v1|257540492044|0",
-      "title": "Microsoft Xbox One Black + Controller*New York Yankees Skin And Controller*PARTS",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 29.99,
-      "shipping_price": 14.0,
-      "market_price": 37.0,
-      "profit_estimate": -11.8,
-      "deal_tier": "unfair",
-      "discount_pct": -18.9,
-      "image_url": "https://i.ebayimg.com/images/g/Q8QAAeSwr0NqHeZr/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/257540492044?_skw=Xbox+One+controller+broken+parts+not+working&hash=item3bf69c0b0c:g:Q8QAAeSwr0NqHeZr",
       "date_posted": "2026-06-01"
     },
     {
@@ -2416,37 +2386,22 @@
       "date_posted": "2026-06-03"
     },
     {
-      "id": "v1|298372348792|0",
-      "title": "LOT OF 4 SONY PLAYSTATION PS4 DUALSHOCK 4 WIRELESS CONTROLLERS FOR PARTS/REPAIR ",
-      "model": "PS4 DualShock 4",
-      "status": "broken",
-      "buy_price": 35.74,
-      "shipping_price": 9.92,
-      "market_price": 13.92,
-      "profit_estimate": -33.55,
-      "deal_tier": "unfair",
-      "discount_pct": -228.0,
-      "image_url": "https://i.ebayimg.com/images/g/NAUAAeSwhhBqGOY-/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/298372348792?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item457860bb78:g:NAUAAeSwhhBqGOY-",
-      "date_posted": "2026-05-31"
-    },
-    {
       "id": "v1|178071013475|0",
       "title": "Nintendo Switch Joy-Con Pair - Pink Left and Gray Right - OEM ! Tested Working",
       "model": "Joy-Con",
       "status": "working",
-      "buy_price": 39.57,
+      "buy_price": 39.54,
       "shipping_price": 0.0,
       "market_price": 15.67,
-      "profit_estimate": -25.94,
+      "profit_estimate": -25.91,
       "deal_tier": "unfair",
-      "discount_pct": -152.5,
+      "discount_pct": -152.3,
       "image_url": "https://i.ebayimg.com/images/g/gKMAAeSwZqJp6Ts0/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/178071013475?_skw=Nintendo+Switch+Joy-Con+used+working+pair&hash=item2975dc0863:g:gKMAAeSwZqJp6Ts0",
       "date_posted": "2026-04-22"
     },
     {
-      "id": "v1|157962877758|0",
+      "id": "v1|157970081185|0",
       "title": "PARTS OR REPAIR Microsoft Xbox Elite Series 2 Core Controller for Series X|S One",
       "model": "Xbox One/Series",
       "status": "broken",
@@ -2457,8 +2412,38 @@
       "deal_tier": "unfair",
       "discount_pct": -7.0,
       "image_url": "https://i.ebayimg.com/images/g/iBwAAeSwpHRp7S2m/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/157962877758?_skw=Xbox+One+controller+broken+parts+not+working&hash=item24c7523b3e:g:iBwAAeSwpHRp7S2m",
-      "date_posted": "2026-06-02"
+      "listing_url": "https://www.ebay.com/itm/157970081185?_skw=Xbox+One+controller+broken+parts+not+working&hash=item24c7c025a1:g:iBwAAeSwpHRp7S2m",
+      "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|137381775773|0",
+      "title": "Microsoft Xbox One Wireless Controller White Model 1708 Clean/Working *Free Ship",
+      "model": "Xbox One/Series",
+      "status": "working",
+      "buy_price": 39.97,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -7.78,
+      "deal_tier": "unfair",
+      "discount_pct": -8.0,
+      "image_url": "https://i.ebayimg.com/images/g/XtUAAeSwFhpqIucA/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137381775773?_skw=Xbox+One+controller+used+working&hash=item1ffc97899d:g:XtUAAeSwFhpqIucA",
+      "date_posted": "2026-06-05"
+    },
+    {
+      "id": "v1|178193561461|0",
+      "title": "FOR PARTS - Xbox One Elite Series 1 (1698) Wireless Bluetooth Controller - READ",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 39.99,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -7.8,
+      "deal_tier": "unfair",
+      "discount_pct": -8.1,
+      "image_url": "https://i.ebayimg.com/images/g/r4QAAeSwmD5qIfHX/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/178193561461?_skw=Xbox+One+controller+broken+parts+not+working&hash=item297d29f775:g:r4QAAeSwmD5qIfHX",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|256776036946|0",
@@ -2506,19 +2491,34 @@
       "date_posted": "2026-05-07"
     },
     {
-      "id": "v1|278034474581|0",
-      "title": "2 Sony PlayStation 4 DualShock Wireless Controllers & Tested and Working",
-      "model": "PS4 DualShock 4",
+      "id": "v1|178194230276|0",
+      "title": "Microsoft Xbox One Elite Series 2 Wireless Controller \"AS IS, PARTS ONLY\"",
+      "model": "Xbox One/Series",
       "status": "working",
       "buy_price": 40.0,
       "shipping_price": 0.0,
-      "market_price": 13.92,
-      "profit_estimate": -27.89,
+      "market_price": 37.0,
+      "profit_estimate": -7.81,
       "deal_tier": "unfair",
-      "discount_pct": -187.4,
-      "image_url": "https://i.ebayimg.com/images/g/xrIAAeSw1OBqGapw/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/278034474581?_skw=PS4+DualShock+4+controller+used+working&hash=item40bc256655:g:xrIAAeSw1OBqGapw",
-      "date_posted": "2026-05-29"
+      "discount_pct": -8.1,
+      "image_url": "https://i.ebayimg.com/images/g/sOQAAeSwUmJqImAg/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/178194230276?_skw=Xbox+One+controller+broken+parts+not+working&hash=item297d342c04:g:sOQAAeSwUmJqImAg",
+      "date_posted": "2026-06-05"
+    },
+    {
+      "id": "v1|178194215580|0",
+      "title": "Black Xbox One Elite Series 2 Wireless Controller - AS IS, For Parts only.",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 40.0,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -7.81,
+      "deal_tier": "unfair",
+      "discount_pct": -8.1,
+      "image_url": "https://i.ebayimg.com/images/g/U3QAAeSwOQFqIlu7/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/178194215580?_skw=Xbox+One+controller+broken+parts+not+working&hash=item297d33f29c:g:U3QAAeSwOQFqIlu7",
+      "date_posted": "2026-06-05"
     },
     {
       "id": "v1|227371619082|0",
@@ -2533,21 +2533,6 @@
       "discount_pct": -8.1,
       "image_url": "https://i.ebayimg.com/images/g/qG0AAeSw3YRqILeA/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/227371619082?_skw=Xbox+One+controller+used+working&hash=item34f067930a:g:qG0AAeSw3YRqILeA",
-      "date_posted": "2026-06-03"
-    },
-    {
-      "id": "v1|168426567432|0",
-      "title": "Xbox One Controller - Red - K-Silver Tmr Joysticks Installed - Everything Works",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 40.0,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": -7.81,
-      "deal_tier": "unfair",
-      "discount_pct": -8.1,
-      "image_url": "https://i.ebayimg.com/images/g/O8cAAeSwRldqH~DC/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/168426567432?_skw=Xbox+One+controller+used+working&hash=item2737017708:g:O8cAAeSwRldqH~DC",
       "date_posted": "2026-06-03"
     },
     {
@@ -2581,6 +2566,21 @@
       "date_posted": "2026-06-04"
     },
     {
+      "id": "v1|236859379427|0",
+      "title": "Nintendo Switch Joy-Con Pair Neon Pink & Green OEM HAC-015 Tested Working",
+      "model": "Joy-Con",
+      "status": "working",
+      "buy_price": 44.95,
+      "shipping_price": 0.0,
+      "market_price": 15.67,
+      "profit_estimate": -31.32,
+      "deal_tier": "unfair",
+      "discount_pct": -186.9,
+      "image_url": "https://i.ebayimg.com/images/g/wTYAAeSwnyZqIpdj/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/236859379427?_skw=Nintendo+Switch+Joy-Con+used+working+pair&hash=item3725eb4ee3:g:wTYAAeSwnyZqIpdj",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|178178252431|0",
       "title": "Nintendo Switch Joy-Con Pair Neon Blue Red OEM Genuine Tested Working",
       "model": "Joy-Con",
@@ -2594,21 +2594,6 @@
       "image_url": "https://i.ebayimg.com/images/g/BygAAeSwhZtqGzt6/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/178178252431?_skw=Nintendo+Switch+Joy-Con+used+working+pair&hash=item297c405e8f:g:BygAAeSwhZtqGzt6",
       "date_posted": "2026-05-30"
-    },
-    {
-      "id": "v1|227360721962|0",
-      "title": "Nintendo Switch grey Joy-Con pair with Comfort Grip - Black TESTED & WORKING",
-      "model": "Joy-Con",
-      "status": "working",
-      "buy_price": 44.99,
-      "shipping_price": 5.0,
-      "market_price": 15.67,
-      "profit_estimate": -36.36,
-      "deal_tier": "unfair",
-      "discount_pct": -219.0,
-      "image_url": "https://i.ebayimg.com/images/g/nkAAAeSwisJqEngM/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/227360721962?_skw=Nintendo+Switch+Joy-Con+used+working+pair&hash=item34efc14c2a:g:nkAAAeSwisJqEngM",
-      "date_posted": "2026-05-31"
     },
     {
       "id": "v1|287355610470|0",
@@ -2641,23 +2626,8 @@
       "date_posted": "2026-04-11"
     },
     {
-      "id": "v1|157955568618|0",
-      "title": "OEM Nintendo Switch Joy-Con Pair - Animal Crossing Edition - Tested & Working",
-      "model": "Joy-Con",
-      "status": "working",
-      "buy_price": 49.0,
-      "shipping_price": 0.0,
-      "market_price": 15.67,
-      "profit_estimate": -35.37,
-      "deal_tier": "unfair",
-      "discount_pct": -212.7,
-      "image_url": "https://i.ebayimg.com/images/g/eRgAAeSwcVtqG0rO/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/157955568618?_skw=Nintendo+Switch+Joy-Con+used+working+pair&hash=item24c6e2b3ea:g:eRgAAeSwcVtqG0rO",
-      "date_posted": "2026-05-30"
-    },
-    {
-      "id": "v1|336614254614|0",
-      "title": "Xbox One and Xbox 360 Controller Lot of 8 for Parts or Repair",
+      "id": "v1|298385282101|0",
+      "title": "AS IS Microsoft Xbox One Elite Series 2 Core Red Controller - FOR PARTS/REPAIR",
       "model": "Xbox One/Series",
       "status": "broken",
       "buy_price": 49.99,
@@ -2666,9 +2636,9 @@
       "profit_estimate": -17.8,
       "deal_tier": "unfair",
       "discount_pct": -35.1,
-      "image_url": "https://i.ebayimg.com/images/g/VpsAAeSwpuxpzcMN/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/336614254614?_skw=Xbox+One+controller+broken+parts+not+working&hash=item4e5fc5e816:g:VpsAAeSwpuxpzcMN",
-      "date_posted": "2026-06-02"
+      "image_url": "https://i.ebayimg.com/images/g/68QAAeSw1MxqIdeH/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/298385282101?_skw=Xbox+One+controller+broken+parts+not+working&hash=item4579261435:g:68QAAeSw1MxqIdeH",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|267687861836|0",
@@ -2690,30 +2660,15 @@
       "title": "Nintendo Switch Joy-Con pair Super Smash Bros Ultimate Special Edition working",
       "model": "Joy-Con",
       "status": "working",
-      "buy_price": 53.97,
-      "shipping_price": 12.23,
+      "buy_price": 53.93,
+      "shipping_price": 12.22,
       "market_price": 15.67,
-      "profit_estimate": -52.57,
+      "profit_estimate": -52.52,
       "deal_tier": "unfair",
-      "discount_pct": -322.5,
+      "discount_pct": -322.1,
       "image_url": "https://i.ebayimg.com/images/g/uwYAAeSwkaZpowz1/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/358269721788?_skw=Nintendo+Switch+Joy-Con+used+working+pair&hash=item536a8a1cbc:g:uwYAAeSwkaZpowz1",
       "date_posted": "2026-02-28"
-    },
-    {
-      "id": "v1|366451582473|0",
-      "title": "Logitech Adaptive Gaming Kit for Xbox One REPLACEMENT PARTS ONLY Untested",
-      "model": "Xbox One/Series",
-      "status": "broken",
-      "buy_price": 55.0,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": -22.81,
-      "deal_tier": "unfair",
-      "discount_pct": -48.6,
-      "image_url": "https://i.ebayimg.com/images/g/W7EAAeSw60JqH12a/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/366451582473?_skw=Xbox+One+controller+broken+parts+not+working&hash=item5552376609:g:W7EAAeSw60JqH12a",
-      "date_posted": "2026-06-02"
     },
     {
       "id": "v1|267665990107|0",
@@ -2731,18 +2686,33 @@
       "date_posted": "2026-05-10"
     },
     {
-      "id": "v1|127902495090|0",
-      "title": "Lot of 2 PS5 DualSense Controllers \u2013 white/black Stick Drift / Parts or Repair",
-      "model": "PS5 DualSense",
+      "id": "v1|137381848683|0",
+      "title": "Microsoft Xbox One Elite  Series 2 Controller Model 1797 For parts as Is",
+      "model": "Xbox One/Series",
       "status": "broken",
-      "buy_price": 58.98,
-      "shipping_price": 6.69,
-      "market_price": 60.0,
-      "profit_estimate": -13.47,
+      "buy_price": 59.99,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -27.8,
       "deal_tier": "unfair",
-      "discount_pct": -9.4,
-      "image_url": "https://i.ebayimg.com/images/g/oegAAeSw15lqIP8u/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/127902495090?_skw=PS5+DualSense+controller+broken+parts+not+working&hash=item1dc7953172:g:oegAAeSw15lqIP8u",
+      "discount_pct": -62.1,
+      "image_url": "https://i.ebayimg.com/images/g/s9sAAeSwzcxqIu9W/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137381848683?_skw=Xbox+One+controller+broken+parts+not+working&hash=item1ffc98a66b:g:s9sAAeSwzcxqIu9W",
+      "date_posted": "2026-06-05"
+    },
+    {
+      "id": "v1|168431242272|0",
+      "title": "LOT OF 2 - Xbox One Elite Series 1 (1698) Wireless Controller - FOR PARTS",
+      "model": "Xbox One/Series",
+      "status": "broken",
+      "buy_price": 59.99,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -27.8,
+      "deal_tier": "unfair",
+      "discount_pct": -62.1,
+      "image_url": "https://i.ebayimg.com/images/g/eyoAAeSwEQRqIegX/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/168431242272?_skw=Xbox+One+controller+broken+parts+not+working&hash=item273748cc20:g:eyoAAeSwEQRqIegX",
       "date_posted": "2026-06-04"
     },
     {
@@ -2825,12 +2795,12 @@
       "title": "Sony PlayStation 4 DualShock PS4 Controllers OEM Lot of 5 - For Parts or Repair",
       "model": "PS4 DualShock 4",
       "status": "broken",
-      "buy_price": 74.12,
+      "buy_price": 74.06,
       "shipping_price": 0.0,
       "market_price": 13.92,
-      "profit_estimate": -62.01,
+      "profit_estimate": -61.95,
       "deal_tier": "unfair",
-      "discount_pct": -432.5,
+      "discount_pct": -432.0,
       "image_url": "https://i.ebayimg.com/images/g/pugAAeSwNBlp9lXu/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/800113221163?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=itemba4a76de2b:g:pugAAeSwNBlp9lXu",
       "date_posted": "2026-06-02"
@@ -2866,21 +2836,6 @@
       "date_posted": "2026-06-04"
     },
     {
-      "id": "v1|406966414963|0",
-      "title": "Sony Playstation DualShock 4 Wireless Control Anniversary Gray Blue Gold PARTS!",
-      "model": "PS4 DualShock 4",
-      "status": "working",
-      "buy_price": 75.0,
-      "shipping_price": 0.0,
-      "market_price": 13.92,
-      "profit_estimate": -62.89,
-      "deal_tier": "unfair",
-      "discount_pct": -438.8,
-      "image_url": "https://i.ebayimg.com/images/g/11EAAeSwiSdqHIf4/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/406966414963?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item5ec116ae73:g:11EAAeSwiSdqHIf4",
-      "date_posted": "2026-06-01"
-    },
-    {
       "id": "v1|188466402017|0",
       "title": "Xbox One 500GB Console w/ Controller & Power Brick *Tested Working*",
       "model": "Xbox One/Series",
@@ -2894,21 +2849,6 @@
       "image_url": "https://i.ebayimg.com/images/g/RaEAAeSwhmlqIYKd/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/188466402017?_skw=Xbox+One+controller+used+working&hash=item2be17912e1:g:RaEAAeSwhmlqIYKd",
       "date_posted": "2026-06-04"
-    },
-    {
-      "id": "v1|137373071491|0",
-      "title": "Xbox One Day One Edition Console And Kinect Camera No Controller Tested Works",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 75.0,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": -42.81,
-      "deal_tier": "unfair",
-      "discount_pct": -102.7,
-      "image_url": "https://i.ebayimg.com/images/g/VPMAAeSwp2JqH1oK/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/137373071491?_skw=Xbox+One+controller+used+working&hash=item1ffc12b883:g:VPMAAeSwp2JqH1oK",
-      "date_posted": "2026-06-02"
     },
     {
       "id": "v1|236848651777|0",
@@ -2926,6 +2866,51 @@
       "date_posted": "2026-05-31"
     },
     {
+      "id": "v1|327196354952|0",
+      "title": "Xbox One Kinect Sensor Bar Microsoft Model 1520 great condition works",
+      "model": "Xbox One/Series",
+      "status": "working",
+      "buy_price": 79.0,
+      "shipping_price": 12.89,
+      "market_price": 37.0,
+      "profit_estimate": -59.7,
+      "deal_tier": "unfair",
+      "discount_pct": -148.4,
+      "image_url": "https://i.ebayimg.com/images/g/Ba0AAOSwn3RepzjA/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/327196354952?_skw=Xbox+One+controller+used+working&hash=item4c2e6c2988:g:Ba0AAOSwn3RepzjA",
+      "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|398027868739|0",
+      "title": "Lot of 4 Sony PlayStation PS4 DualShock 4 Wireless Controllers for Parts/Repair",
+      "model": "PS4 DualShock 4",
+      "status": "broken",
+      "buy_price": 79.99,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": -67.88,
+      "deal_tier": "unfair",
+      "discount_pct": -474.6,
+      "image_url": "https://i.ebayimg.com/images/g/HLEAAeSwW-FqIgNY/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/398027868739?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item5cac4f4a43:g:HLEAAeSwW-FqIgNY",
+      "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|137379281694|0",
+      "title": "Lot of 4 Working Xbox One / Series X|S Controllers PowerA Afterglow Camo Tested",
+      "model": "Xbox One/Series",
+      "status": "working",
+      "buy_price": 80.0,
+      "shipping_price": 4.99,
+      "market_price": 37.0,
+      "profit_estimate": -52.8,
+      "deal_tier": "unfair",
+      "discount_pct": -129.7,
+      "image_url": "https://i.ebayimg.com/images/g/ge0AAeSwiYxqIbKE/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137379281694?_skw=Xbox+One+controller+used+working&hash=item1ffc717b1e:g:ge0AAeSwiYxqIbKE",
+      "date_posted": "2026-06-04"
+    },
+    {
       "id": "v1|366432819990|0",
       "title": "Logitech G920 Driving Force Racing PEDALS ONLY for Xbox Series X|S, Xbox WORKING",
       "model": "Xbox Series X/S",
@@ -2939,6 +2924,21 @@
       "image_url": "https://i.ebayimg.com/images/g/XzwAAeSw2HRo~sd5/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/366432819990?_skw=Xbox+Series+X+S+controller+used+working&hash=item5551191b16:g:XzwAAeSw2HRo~sd5",
       "date_posted": "2026-05-25"
+    },
+    {
+      "id": "v1|227374453710|0",
+      "title": "Lot of 6 Sony PS4 DualShock 4 Controllers Parts Repair Untested Read",
+      "model": "PS4 DualShock 4",
+      "status": "broken",
+      "buy_price": 89.99,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": -77.88,
+      "deal_tier": "unfair",
+      "discount_pct": -546.5,
+      "image_url": "https://i.ebayimg.com/images/g/NOMAAeSw58dqIss3/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/227374453710?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item34f092d3ce:g:NOMAAeSw58dqIss3",
+      "date_posted": "2026-06-05"
     },
     {
       "id": "v1|298214170675|0",
@@ -2956,6 +2956,21 @@
       "date_posted": "2026-04-11"
     },
     {
+      "id": "v1|800124979100|0",
+      "title": "Microsoft Xbox One Console Bundle \u2013 2 Controllers + Power Supply \u2013Tested Working",
+      "model": "Xbox One/Series",
+      "status": "working",
+      "buy_price": 99.0,
+      "shipping_price": 19.5,
+      "market_price": 37.0,
+      "profit_estimate": -86.31,
+      "deal_tier": "unfair",
+      "discount_pct": -220.3,
+      "image_url": "https://i.ebayimg.com/images/g/Q1EAAeSwg11qIi4z/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/800124979100?_skw=Xbox+One+controller+used+working&hash=itemba4b2a479c:g:Q1EAAeSwg11qIi4z",
+      "date_posted": "2026-06-05"
+    },
+    {
       "id": "v1|227366762882|0",
       "title": "3 Broken Sony PlayStation 5 DualSense Ps5 Controllers Lot OEM Repair Or Parts",
       "model": "PS5 DualSense",
@@ -2971,6 +2986,21 @@
       "date_posted": "2026-06-01"
     },
     {
+      "id": "v1|306983137453|0",
+      "title": "Microsoft Xbox One 500GB Console - Black With 2 Controllers & Cords Tested Works",
+      "model": "Xbox One/Series",
+      "status": "working",
+      "buy_price": 99.99,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -67.8,
+      "deal_tier": "unfair",
+      "discount_pct": -170.2,
+      "image_url": "https://i.ebayimg.com/images/g/CkwAAeSwJDlqIdZR/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/306983137453?_skw=Xbox+One+controller+used+working&hash=item47799ef0ad:g:CkwAAeSwJDlqIdZR",
+      "date_posted": "2026-06-04"
+    },
+    {
       "id": "v1|306980158230|0",
       "title": "Microsoft Xbox One Console 1540 500gb Bundle 2 Controllers Cords Tested Works",
       "model": "Xbox One/Series",
@@ -2984,6 +3014,21 @@
       "image_url": "https://i.ebayimg.com/images/g/UREAAeSwp2Jp-qdo/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/306980158230?_skw=Xbox+One+controller+used+working&hash=item4779717b16:g:UREAAeSwp2Jp-qdo",
       "date_posted": "2026-06-03"
+    },
+    {
+      "id": "v1|137380149851|0",
+      "title": "Microsoft Xbox One Console 500 GB With Cords, 6 Games No Controller Tested Works",
+      "model": "Xbox One/Series",
+      "status": "working",
+      "buy_price": 100.0,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -67.81,
+      "deal_tier": "unfair",
+      "discount_pct": -170.3,
+      "image_url": "https://i.ebayimg.com/images/g/-w8AAeSwOEpqIhuM/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/137380149851?_skw=Xbox+One+controller+used+working&hash=item1ffc7eba5b:g:-w8AAeSwOEpqIhuM",
+      "date_posted": "2026-06-05"
     },
     {
       "id": "v1|287368592325|0",
@@ -3014,6 +3059,21 @@
       "image_url": "https://i.ebayimg.com/images/g/GjwAAeSwhphqGJGt/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/178172844671?_skw=PS5+DualSense+controller+used+working&hash=item297bedda7f:g:GjwAAeSwhphqGJGt",
       "date_posted": "2026-05-28"
+    },
+    {
+      "id": "v1|287375121080|0",
+      "title": "Xbox One S Console White Controller Tested Working HDMI Bundle",
+      "model": "Xbox One/Series",
+      "status": "working",
+      "buy_price": 109.0,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -76.81,
+      "deal_tier": "unfair",
+      "discount_pct": -194.6,
+      "image_url": "https://i.ebayimg.com/images/g/ZxoAAeSwi69p6NaH/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/287375121080?_skw=Xbox+One+controller+used+working&hash=item42e8e45ab8:g:ZxoAAeSwi69p6NaH",
+      "date_posted": "2026-06-05"
     },
     {
       "id": "v1|198395720088|0",
@@ -3091,21 +3151,6 @@
       "date_posted": "2026-06-03"
     },
     {
-      "id": "v1|800113031242|0",
-      "title": "Microsoft Xbox One S Console Model 1681 White Tested Working No Controller #R125",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 115.77,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": -83.58,
-      "deal_tier": "unfair",
-      "discount_pct": -212.9,
-      "image_url": "https://i.ebayimg.com/images/g/XXoAAeSwX7JqHz~Z/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/800113031242?_skw=Xbox+One+controller+used+working&hash=itemba4a73f84a:g:XXoAAeSwX7JqHz~Z",
-      "date_posted": "2026-06-02"
-    },
-    {
       "id": "v1|227361690386|0",
       "title": "Sony PlayStation 5 DualSense Edge Wireless Controller White (WORKS GREAT/READ) 2",
       "model": "PS5 DualSense",
@@ -3136,34 +3181,19 @@
       "date_posted": "2026-06-04"
     },
     {
-      "id": "v1|287372652768|0",
-      "title": "Microsoft Xbox One S 1TB White Console with Two Controller Tested Working",
+      "id": "v1|206319906484|0",
+      "title": "Microsoft Xbox One It Have Games All Cables No Controller Tested and Working",
       "model": "Xbox One/Series",
       "status": "working",
       "buy_price": 120.0,
-      "shipping_price": 0.0,
+      "shipping_price": 10.0,
       "market_price": 37.0,
-      "profit_estimate": -87.81,
+      "profit_estimate": -97.81,
       "deal_tier": "unfair",
-      "discount_pct": -224.3,
-      "image_url": "https://i.ebayimg.com/images/g/VbMAAeSwu85qIKpy/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/287372652768?_skw=Xbox+One+controller+used+working&hash=item42e8beb0e0:g:VbMAAeSwu85qIKpy",
-      "date_posted": "2026-06-03"
-    },
-    {
-      "id": "v1|147347835550|0",
-      "title": "Xbox One 1540 Console 500GB with Cables 3 Games One Controller TESTED AND WORKS",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 125.0,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": -92.81,
-      "deal_tier": "unfair",
-      "discount_pct": -237.8,
-      "image_url": "https://i.ebayimg.com/images/g/s1MAAeSwO0dqBoci/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/147347835550?_skw=Xbox+One+controller+used+working&hash=item224e9d8a9e:g:s1MAAeSwO0dqBoci",
-      "date_posted": "2026-06-02"
+      "discount_pct": -251.4,
+      "image_url": "https://i.ebayimg.com/images/g/WwQAAeSwYzhqIH1-/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/206319906484?_skw=Xbox+One+controller+used+working&hash=item30099feeb4:g:WwQAAeSwYzhqIH1-",
+      "date_posted": "2026-06-05"
     },
     {
       "id": "v1|227361690404|0",
@@ -3185,45 +3215,30 @@
       "title": "Nintendo Switch Kiosk Joy Con Cables Set (Working pair and a third one as-is)",
       "model": "Joy-Con",
       "status": "working",
-      "buy_price": 143.92,
+      "buy_price": 143.8,
       "shipping_price": 0.0,
       "market_price": 15.67,
-      "profit_estimate": -130.29,
+      "profit_estimate": -130.17,
       "deal_tier": "unfair",
-      "discount_pct": -818.4,
+      "discount_pct": -817.7,
       "image_url": "https://i.ebayimg.com/images/g/v0gAAeSwza9qHUJM/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/406965627273?_skw=Nintendo+Switch+Joy-Con+used+working+pair&hash=item5ec10aa989:g:v0gAAeSwza9qHUJM",
       "date_posted": "2026-06-01"
     },
     {
-      "id": "v1|800117728402|0",
-      "title": "Xbox One White 500Gb W Controller & 11 Games Tested Working Great Condition Lot",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 145.0,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": -112.81,
-      "deal_tier": "unfair",
-      "discount_pct": -291.9,
-      "image_url": "https://i.ebayimg.com/images/g/N-AAAeSwVcxqIFXi/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/800117728402?_skw=Xbox+One+controller+used+working&hash=itemba4abba492:g:N-AAAeSwVcxqIFXi",
-      "date_posted": "2026-06-03"
-    },
-    {
-      "id": "v1|168424346550|0",
-      "title": "Microsoft XBOX One S Minecraft Edition Limited WORKS No Controllers",
-      "model": "Xbox One/Series",
-      "status": "working",
+      "id": "v1|178193122563|0",
+      "title": "Broken Sony PlayStation4 PS4 DualShock 4 Wireless Controller Lot of 10 for parts",
+      "model": "PS4 DualShock 4",
+      "status": "broken",
       "buy_price": 149.99,
-      "shipping_price": 22.0,
-      "market_price": 37.0,
-      "profit_estimate": -139.8,
+      "shipping_price": 0.0,
+      "market_price": 13.92,
+      "profit_estimate": -137.88,
       "deal_tier": "unfair",
-      "discount_pct": -364.8,
-      "image_url": "https://i.ebayimg.com/images/g/yhQAAeSwAqxqHuzV/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/168424346550?_skw=Xbox+One+controller+used+working&hash=item2736df93b6:g:yhQAAeSwAqxqHuzV",
-      "date_posted": "2026-06-02"
+      "discount_pct": -977.5,
+      "image_url": "https://i.ebayimg.com/images/g/fSQAAeSwizRqIIqE/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/178193122563?_skw=PS4+DualShock+4+controller+broken+parts+not+working&hash=item297d234503:g:fSQAAeSwizRqIIqE",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|147326427148|0",
@@ -3241,19 +3256,34 @@
       "date_posted": "2026-05-23"
     },
     {
-      "id": "v1|336616817892|0",
-      "title": "Microsoft Xbox One S 1TB Console White with Controller Cables & Box WORKS",
+      "id": "v1|287373766080|0",
+      "title": "Microsoft Xbox One X 1TB Console Tested Working Controller HDMI Power Cable",
       "model": "Xbox One/Series",
       "status": "working",
-      "buy_price": 164.95,
+      "buy_price": 161.78,
       "shipping_price": 0.0,
       "market_price": 37.0,
-      "profit_estimate": -132.76,
+      "profit_estimate": -129.59,
       "deal_tier": "unfair",
-      "discount_pct": -345.8,
-      "image_url": "https://i.ebayimg.com/images/g/HTcAAeSwv05qH4Gr/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/336616817892?_skw=Xbox+One+controller+used+working&hash=item4e5fed04e4:g:HTcAAeSwv05qH4Gr",
-      "date_posted": "2026-06-03"
+      "discount_pct": -337.2,
+      "image_url": "https://i.ebayimg.com/images/g/ySsAAeSweGlqIV0i/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/287373766080?_skw=Xbox+One+controller+used+working&hash=item42e8cfadc0:g:ySsAAeSweGlqIV0i",
+      "date_posted": "2026-06-04"
+    },
+    {
+      "id": "v1|188463587493|0",
+      "title": "Xbox One X 1TB Console Bundle \u2014 Controller, Wireless Headset | Tested & Working",
+      "model": "Xbox One/Series",
+      "status": "working",
+      "buy_price": 165.0,
+      "shipping_price": 0.0,
+      "market_price": 37.0,
+      "profit_estimate": -132.81,
+      "deal_tier": "unfair",
+      "discount_pct": -345.9,
+      "image_url": "https://i.ebayimg.com/images/g/Hm4AAeSw-jpqIMRN/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/188463587493?_skw=Xbox+One+controller+used+working&hash=item2be14e20a5:g:Hm4AAeSw-jpqIMRN",
+      "date_posted": "2026-06-05"
     },
     {
       "id": "v1|358534617983|0",
@@ -3271,19 +3301,19 @@
       "date_posted": "2026-05-08"
     },
     {
-      "id": "v1|318402884329|0",
-      "title": "Microsoft Xbox One S Red Console Bundle 2 Wireless Controllers Tested Working",
+      "id": "v1|377234796445|0",
+      "title": "Microsoft Xbox Series One S 1TB White 1681 OEM Controller - Tested / Working",
       "model": "Xbox One/Series",
       "status": "working",
-      "buy_price": 175.0,
+      "buy_price": 169.95,
       "shipping_price": 0.0,
       "market_price": 37.0,
-      "profit_estimate": -142.81,
+      "profit_estimate": -137.76,
       "deal_tier": "unfair",
-      "discount_pct": -373.0,
-      "image_url": "https://i.ebayimg.com/images/g/VwUAAeSwPtlqH90l/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/318402884329?_skw=Xbox+One+controller+used+working&hash=item4a224a72e9:g:VwUAAeSwPtlqH90l",
-      "date_posted": "2026-06-03"
+      "discount_pct": -359.3,
+      "image_url": "https://i.ebayimg.com/images/g/OocAAeSw~9lqIeLz/s-l225.jpg",
+      "listing_url": "https://www.ebay.com/itm/377234796445?_skw=Xbox+One+controller+used+working&hash=item57d4f22f9d:g:OocAAeSw~9lqIeLz",
+      "date_posted": "2026-06-04"
     },
     {
       "id": "v1|397926881547|0",
@@ -3299,21 +3329,6 @@
       "image_url": "https://i.ebayimg.com/images/g/OAgAAeSw1rlp~jEl/s-l225.jpg",
       "listing_url": "https://www.ebay.com/itm/397926881547?_skw=PS5+DualSense+controller+used+working&hash=item5ca64a590b:g:OAgAAeSw1rlp~jEl",
       "date_posted": "2026-05-08"
-    },
-    {
-      "id": "v1|377232773567|0",
-      "title": "Xbox One S 1TB Console Bundle OEM Controller 6 Games Tested Working Read",
-      "model": "Xbox One/Series",
-      "status": "working",
-      "buy_price": 179.97,
-      "shipping_price": 0.0,
-      "market_price": 37.0,
-      "profit_estimate": -147.78,
-      "deal_tier": "unfair",
-      "discount_pct": -386.4,
-      "image_url": "https://i.ebayimg.com/images/g/kXwAAeSwMd9qIPza/s-l225.jpg",
-      "listing_url": "https://www.ebay.com/itm/377232773567?_skw=Xbox+One+controller+used+working&hash=item57d4d351bf:g:kXwAAeSwMd9qIPza",
-      "date_posted": "2026-06-04"
     }
   ]
 }
